@@ -1,0 +1,921 @@
+ Command : uxshw ses exp ses=* lnk vses=* node=gcexdol01idlpro
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ACQUISITION 
+       | vses         : 000 
+       | label        : 
+       | header       : SMACK_ACQUISITION_SOCLE
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | SMACK_ACQUISITION_SOCLE                                          | SMACK_ACQUISITION_US2                                            | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : AGGREGATS 
+       | vses         : 000 
+       | label        : 
+       | header       : AGGRETGATS_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | AGGRETGATS_D                                                     | SMACK_ROCK_CARTES                                                | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | SMACK_ROCK_COMPTES                                               | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | SMACK_ROCK_CARTES                                                | SMACK_ROCK_TICKETS                                               | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | SMACK_ROCK_COMPTES                                               | SMACK_ROCK_COMMANDES                                             | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW 
+       | vses         : 000 
+       | label        : 
+       | header       : ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_D                     | ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_ACTIONQUEUE           | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_FLAGS                 | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_SMS_FEEDBACK          | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_SMS_TARGETING         | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : API_JOB 
+       | vses         : 000 
+       | label        : 
+       | header       : EXPORT_MONGODB_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | EXPORT_MONGODB_D                                                 | SMACK_EXPORT_CUSTOMERS_METRICS                                   | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | SMACK_EXPORT_UNKNOWN_VISITORS_METRICS                            | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CALCUL_DATARAW 
+       | vses         : 000 
+       | label        : 
+       | header       : CALCUL_DATARAW_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | CALCUL_DATARAW_D                                                 | CONTACTS_DATARAW                                                 | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | LOYALTIES_DATARAW                                                | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | OPERATIONALSTRUCTURE_DATARAW                                     | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | PMAS_DATARAW                                                     | {  }                                                             |                                                                  || 
+       || 0001 | 0006 |  OK  |                                                                  | PRODUCTHIERARCHY_DATARAW                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0007 |  OK  |                                                                  | PROMOLIST_DATARAW                                                | {  }                                                             |                                                                  || 
+       || 0001 | 0008 |  OK  |                                                                  | SALES_DATARAW                                                    | {  }                                                             |                                                                  || 
+       || 0001 | 0009 |  OK  |                                                                  | SELLIGENT_ACTIONQUEUE_DATARAW                                    | {  }                                                             |                                                                  || 
+       || 0001 | 0010 |  OK  |                                                                  | SELLIGENT_CAMPAIGN_EXECLOG_DATARAW                               | {  }                                                             |                                                                  || 
+       || 0001 | 0011 |  OK  |                                                                  | SELLIGENT_CAMPAIGNS_DATARAW                                      | {  }                                                             |                                                                  || 
+       || 0001 | 0012 |  OK  |                                                                  | SELLIGENT_FLAGS_DATARAW                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0013 |  OK  |                                                                  | SELLIGENT_MAIL_PROBES_DATARAW                                    | {  }                                                             |                                                                  || 
+       || 0001 | 0014 |  OK  |                                                                  | SELLIGENT_MAILS_DATARAW                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0015 |  OK  |                                                                  | SELLIGENT_MAILTREE_DATARAW                                       | {  }                                                             |                                                                  || 
+       || 0001 | 0016 |  OK  |                                                                  | SELLIGENT_POSTMAIL_TARGETING_DATARAW                             | {  }                                                             |                                                                  || 
+       || 0001 | 0017 |  OK  |                                                                  | SELLIGENT_SEGMENTS_DATARAW                                       | {  }                                                             |                                                                  || 
+       || 0001 | 0018 |  OK  |                                                                  | SELLIGENT_SIM_MAILCLIENTS_DATARAW                                | {  }                                                             |                                                                  || 
+       || 0001 | 0019 |  OK  |                                                                  | SELLIGENT_SMS_FEEDBACK_DATARAW                                   | {  }                                                             |                                                                  || 
+       || 0001 | 0020 |  OK  |                                                                  | SELLIGENT_SMS_TARGETING_DATARAW                                  | {  }                                                             |                                                                  || 
+       || 0001 | 0021 |  OK  |                                                                  | STORES_DATARAW                                                   | {  }                                                             |                                                                  || 
+       || 0001 | 0022 |  OK  |                                                                  | STORESOPERATIONALSTRUCTURE_DATARAW                               | {  }                                                             |                                                                  || 
+       || 0001 | 0023 |  OK  |                                                                  | SUPPLIERS_DATARAW                                                | {  }                                                             |                                                                  || 
+       || 0001 | 0024 |  OK  |                                                                  | WEBORDERS_DATARAW                                                | {  }                                                             |                                                                  || 
+       || 0001 | 0025 |  OK  |                                                                  | VOUCHERS_DATARAW                                                 | {  }                                                             |                                                                  || 
+       || 0001 | 0026 |  OK  |                                                                  | STYLES_DATARAW                                                   | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CAMPAIGN_MONITORING 
+       | vses         : 000 
+       | label        : 
+       | header       : CAMPAIGN_MONITORING_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | CAMPAIGN_MONITORING_D                                            | CAMPAIGN_MONITORING_SOCLE_GOOGLE_ANALYTICS                       | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | CAMPAIGN_MONITORING_SOCLE_ROCK                                   | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | CAMPAIGN_MONITORING_SOCLE_SELLIGENT                              | {  }                                                             |                                                                  || 
+       || 0001 | 0009 |  OK  |                                                                  | CAMPAIGN_MONITORING_WEB_TRAFFIC                                  | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | CAMPAIGN_MONITORING_SOCLE_ROCK                                   | CAMPAIGN_MONITORING_TOP_SALES_VIEWS                              | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | CAMPAIGN_MONITORING_SOCLE_SELLIGENT                              | CAMPAIGN_MONITORING_TRIGGER                                      | {  }                                                             |                                                                  || 
+       || 0005 | 0007 |  OK  |                                                                  | CAMPAIGN_MONITORING_MARKETING                                    | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | CAMPAIGN_MONITORING_MARKETING                                    | CAMPAIGN_MONITORING_EXTRA                                        | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : COLLECTION 
+       | vses         : 000 
+       | label        : 
+       | header       : COLLECTION_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | COLLECTION_D                                                     | COLLECTION_CUSTOMER_PROFILE_BY_PRODUCT                           | {  }                                                             |                                                                  || 
+       || 0001 | 0006 |  OK  |                                                                  | COLLECTION_CUSTOMPROFILE_AND_ZOOMPRODUCT                         | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | COLLECTION_CUSTOMER_PROFILE_BY_PRODUCT                           | COLLECTION_MARKET_INDICATORS                                     | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | COLLECTION_MARKET_INDICATORS                                     | COLLECTION_TOP_5_SALES_STORE_WEB                                 | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | COLLECTION_TOP_5_SALES_STORE_WEB                                 | COLLECTION_TOP_5_ORDER_WEB_ERESA                                 | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CONVERTEO 
+       | vses         : 000 
+       | label        : 
+       | header       : CONVERTEO_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | CONVERTEO_D                                                      | OFFLINE_CA_TRANSFERT                                             | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | SLEEP_2                                                          | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | SLEEP_2                                                          | ONLINE_CA_TRANSFERT                                              | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : COUNT_TABLE_GCP 
+       | vses         : 000 
+       | label        : count_table_gcp
+       | header       : COUNT_TABLE_GCP_DATALAKE
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | COUNT_TABLE_GCP_DATALAKE                                         | COUNT_TABLE_GCP_AGREGATS                                         | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CUSTOMER_RETENTION 
+       | vses         : 000 
+       | label        : Customer retention
+       | header       : CUSTOMER_RETENTION_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | CUSTOMER_RETENTION_D                                             | PREPARE_100_CUSTOMER_RETENTION                                   | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | PREPARE_100_CUSTOMER_RETENTION                                   | PREPARE_200_CUSTOMER_RETENTION                                   | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | PREPARE_200_CUSTOMER_RETENTION                                   | PREPARE_201_CUSTOMER_RETENTION                                   | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | PREPARE_201_CUSTOMER_RETENTION                                   | PREPARE_202_CUSTOMER_RETENTION                                   | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | PREPARE_202_CUSTOMER_RETENTION                                   | PREPARE_203_CUSTOMER_RETENTION                                   | {  }                                                             |                                                                  || 
+       || 0006 | 0007 |  OK  | PREPARE_203_CUSTOMER_RETENTION                                   | PREPARE_204_CUSTOMER_RETENTION                                   | {  }                                                             |                                                                  || 
+       || 0006 | 0010 |  KO  |                                                                  | PREPARE_204_CUSTOMER_RETENTION                                   | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | PREPARE_204_CUSTOMER_RETENTION                                   | PREPARE_205_CUSTOMER_RETENTION                                   | {  }                                                             |                                                                  || 
+       || 0008 | 0009 |  OK  | PREPARE_205_CUSTOMER_RETENTION                                   | PREPARE_ALL_SCORES_CUSTOMER_RETENTION                            | {  }                                                             |                                                                  || 
+       || 0010 | 0011 |  OK  | PREPARE_204_CUSTOMER_RETENTION                                   | PREPARE_205_CUSTOMER_RETENTION                                   | {  }                                                             |                                                                  || 
+       || 0011 | 0012 |  OK  | PREPARE_205_CUSTOMER_RETENTION                                   | PREPARE_ALL_SCORES_CUSTOMER_RETENTION                            | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : DETECTION_FICHIER_KLEANSE 
+       | vses         : 000 
+       | label        : 
+       | header       : DETECTION_FICHIER_KLEANSE_ANO
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : EXPORT_TO_SFTP_VALIUZ 
+       | vses         : 000 
+       | label        : 
+       | header       : EXPORT_TO_SFTP_VALIUZ_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | EXPORT_TO_SFTP_VALIUZ_D                                          | VALIUZ_SCORE_SEGMENT                                             | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | VALIUZ_SCORE_SEGMENT                                             | VALIUZ_100_STORES                                                | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | VALIUZ_100_STORES                                                | VALIUZ_200_PRODUCTS                                              | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | VALIUZ_200_PRODUCTS                                              | VALIUZ_300_CONTACTS                                              | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | VALIUZ_300_CONTACTS                                              | VALIUZ_300_PREPARE_DATALAKE                                      | {  }                                                             |                                                                  || 
+       || 0006 | 0007 |  OK  | VALIUZ_300_PREPARE_DATALAKE                                      | VALIUZ_300_PREPARE_RAW                                           | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | VALIUZ_300_PREPARE_RAW                                           | VALIUZ_400_TICKETS                                               | {  }                                                             |                                                                  || 
+       || 0008 | 0009 |  OK  | VALIUZ_400_TICKETS                                               | VALIUZ_400_TICKETS                                               | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : GA 
+       | vses         : 000 
+       | label        : 
+       | header       : GA_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | GA_D                                                             | SMACK_ROCK_GA_SESSIONS                                           | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : GOOGLE_ANALYTICS 
+       | vses         : 000 
+       | label        : 
+       | header       : GOOGLE_ANALYTICS_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | GOOGLE_ANALYTICS_D                                               | SLEEP_120                                                        | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | SLEEP_120                                                        | INTEGRATION_STAGING_GOOGLE_ANALYTICS                             | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | INTEGRATION_STAGING_GOOGLE_ANALYTICS                             | ACQUISITION                                                      | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : GOOGLE_SSD 
+       | vses         : 000 
+       | label        : 
+       | header       : GOOGLE_SSD_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | GOOGLE_SSD_D                                                     | GOOGLE_SSD_BE                                                    | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | GOOGLE_SSD_ES                                                    | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | GOOGLE_SSD_FR                                                    | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | GOOGLE_SSD_IT                                                    | {  }                                                             |                                                                  || 
+       || 0001 | 0006 |  OK  |                                                                  | SSD_FULL_LOAD                                                    | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : HISTO_DASHBOARD_ANONYMES 
+       | vses         : 000 
+       | label        : 
+       | header       : HISTO_DASHBOARD_ANONYMES_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | HISTO_DASHBOARD_ANONYMES_D                                       | SMACK_HISTO_RFM_MATRICE_PASSAGE                                  | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | SMACK_TICKET_MAGASIN_1RM                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | SMACK_HISTO_KPI_1RM                                              | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | SMACK_HISTO_KPI_12RM                                             | {  }                                                             |                                                                  || 
+       || 0001 | 0006 |  OK  |                                                                  | SMACK_HISTO_PROFIL_1RM                                           | {  }                                                             |                                                                  || 
+       || 0001 | 0007 |  OK  |                                                                  | SMACK_HISTO_PROFIL_12RM                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0008 |  OK  |                                                                  | SMACK_HISTO_CLUSTER_CLIENT_STYLE                                 | {  }                                                             |                                                                  || 
+       || 0001 | 0009 |  OK  |                                                                  | SMACK_HISTO_WEB_1RM                                              | {  }                                                             |                                                                  || 
+       || 0001 | 0010 |  OK  |                                                                  | SMACK_HISTO_WEB_12RM                                             | {  }                                                             |                                                                  || 
+       || 0001 | 0011 |  OK  |                                                                  | SMACK_HISTO_COMPLETUDE                                           | {  }                                                             |                                                                  || 
+       || 0001 | 0012 |  OK  |                                                                  | SMACK_HISTO_RFM_CA_CLASSE                                        | {  }                                                             |                                                                  || 
+       || 0001 | 0013 |  OK  |                                                                  | SMACK_HISTO_TRANSFER_MATRIX                                      | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_COPYFILE 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX du flux COPYFILE
+       | header       : LIDLSES
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | LIDLSES                                                          | FLX_COPYFILE_PDX                                                 | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | FLX_COPYFILE_PDX                                                 | EXEC_STAGING_DATALAKE_GCP_PDX_STORE_PROJECTED_KPI                | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_STORE_PROJECTED_KPI                | EXEC_STAGING_DATALAKE_GCP_PDX_SUGGESTED_PO_GLOBAL                | {  }                                                             |                                                                  || 
+       || 0003 | 0013 |  RC  |                                                                  | EXEC_STAGING_DATALAKE_GCP_PDX_SUGGESTED_PO_GLOBAL                | {  }                                                             | 124                                                              || 
+       || 0004 | 0005 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_SUGGESTED_PO_GLOBAL                | EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST_SKU_COUNTRY_WEEK          | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST_SKU_COUNTRY_WEEK          | EXEC_STAGING_DATALAKE_GCP_PDX_REPLENISHMENT_SKU_WAREHOUSE_WEEK   | {  }                                                             |                                                                  || 
+       || 0006 | 0007 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_REPLENISHMENT_SKU_WAREHOUSE_WEEK   | EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST                           | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST                           | EXEC_STAGING_DATALAKE_GCP_PDX_TRANSFERS                          | {  }                                                             |                                                                  || 
+       || 0008 | 0009 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_TRANSFERS                          | EXEC_STAGING_DATALAKE_GCP_PDX_DC_PROJECTED_KPI                   | {  }                                                             |                                                                  || 
+       || 0009 | 0010 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_DC_PROJECTED_KPI                   | EXEC_LANCEUR_GENERATION_RAA                                      | {  }                                                             |                                                                  || 
+       || 0010 | 0011 |  OK  | EXEC_LANCEUR_GENERATION_RAA                                      | EXEC_LANCEUR_GENERATION_LSD                                      | {  }                                                             |                                                                  || 
+       || 0011 | 0012 |  OK  | EXEC_LANCEUR_GENERATION_LSD                                      | EXEC_MAKE_DATARAW_PDX_COPYFILE                                   | {  }                                                             |                                                                  || 
+       || 0013 | 0014 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_SUGGESTED_PO_GLOBAL                | EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST_SKU_COUNTRY_WEEK          | {  }                                                             |                                                                  || 
+       || 0014 | 0015 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST_SKU_COUNTRY_WEEK          | EXEC_STAGING_DATALAKE_GCP_PDX_REPLENISHMENT_SKU_WAREHOUSE_WEEK   | {  }                                                             |                                                                  || 
+       || 0015 | 0016 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_REPLENISHMENT_SKU_WAREHOUSE_WEEK   | EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST                           | {  }                                                             |                                                                  || 
+       || 0016 | 0017 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST                           | EXEC_STAGING_DATALAKE_GCP_PDX_TRANSFERS                          | {  }                                                             |                                                                  || 
+       || 0017 | 0018 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_TRANSFERS                          | EXEC_STAGING_DATALAKE_GCP_PDX_DC_PROJECTED_KPI                   | {  }                                                             |                                                                  || 
+       || 0018 | 0019 |  OK  | EXEC_STAGING_DATALAKE_GCP_PDX_DC_PROJECTED_KPI                   | EXEC_LANCEUR_GENERATION_RAA                                      | {  }                                                             |                                                                  || 
+       || 0019 | 0020 |  OK  | EXEC_LANCEUR_GENERATION_RAA                                      | EXEC_LANCEUR_GENERATION_LSD                                      | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : INVENTAIRE_MAGASIN 
+       | vses         : 000 
+       | label        : inventaire magasin
+       | header       : INTEGRATION_REF_INV
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | INTEGRATION_REF_INV                                              | FLUX_INV_MAG                                                     | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ITFASUE 
+       | vses         : 000 
+       | label        : 
+       | header       : ITFASUE_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | ITFASUE_D                                                        | ITFASUE-100-TRANSFERT                                            | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | ITFASUE-100-TRANSFERT                                            | ITFASUE-200-PURCHASEORDERS                                       | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | ITFASUE-200-PURCHASEORDERS                                       | ITFASUE-300-JOIN-TRF-PO                                          | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | ITFASUE-300-JOIN-TRF-PO                                          | ITFASUE-400-AGG1                                                 | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IU_UMNT_GCP 
+       | vses         : 000 
+       | label        : DUAS v6 Unix Maintenance GCP
+       | header       : IU_UMNT_H_GCP
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | IU_UMNT_H_GCP                                                    | IU_UMNTOAX_GCP                                                   | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | IU_UMNTOAX_GCP                                                   | IU_UMNTOLB_GCP                                                   | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | IU_UMNTOLB_GCP                                                   | IU_UMNTPOA_GCP                                                   | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | IU_UMNTPOA_GCP                                                   | IU_UMNT_T_GCP                                                    | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : KLEANSE_ANO 
+       | vses         : 000 
+       | label        : 
+       | header       : KLEANSE_ANO_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | KLEANSE_ANO_D                                                    | RM_KLEANSE_STAGING_TMP                                           | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | RM_KLEANSE_STAGING_TMP                                           | KLEANSE_COPYFILE_TO_TMP_STAGING                                  | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | KLEANSE_COPYFILE_TO_TMP_STAGING                                  | KLEANSE_ANO_START                                                | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | KLEANSE_ANO_START                                                | KLEANSE_ANO_CONTACTS                                             | {  }                                                             |                                                                  || 
+       || 0004 | 0007 |  OK  |                                                                  | KLEANSE_ANO_SMACK_ALL                                            | {  }                                                             |                                                                  || 
+       || 0004 | 0008 |  OK  |                                                                  | KLEANSE_ANO_SALES                                                | {  }                                                             |                                                                  || 
+       || 0004 | 0009 |  OK  |                                                                  | KLEANSE_ANO_LOYALTIES                                            | {  }                                                             |                                                                  || 
+       || 0004 | 0010 |  OK  |                                                                  | 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_CIBLAGES_COURRIER       | {  }                                                             |                                                                  || 
+       || 0004 | 0011 |  OK  |                                                                  | 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_CIBLAGES_EMAIL          | {  }                                                             |                                                                  || 
+       || 0004 | 0012 |  OK  |                                                                  | 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_CIBLAGES_SMS            | {  }                                                             |                                                                  || 
+       || 0004 | 0013 |  OK  |                                                                  | 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_CLICS                   | {  }                                                             |                                                                  || 
+       || 0004 | 0014 |  OK  |                                                                  | 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_OUVERTURES              | {  }                                                             |                                                                  || 
+       || 0004 | 0015 |  OK  |                                                                  | 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_RETOUR_SMS              | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | KLEANSE_ANO_CONTACTS                                             | KLEANSE_ANO_END                                                  | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : KLEANSE_SELECTION 
+       | vses         : 000 
+       | label        : 
+       | header       : KLEANSE_SELECTION_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | KLEANSE_SELECTION_D                                              | KLEANSE_SELECTION_SOCLE                                          | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | KLEANSE_SELECTION_SOCLE                                          | KLEANSE_SELECTION_AGGREGATE                                      | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | KLEANSE_SELECTION_AGGREGATE                                      | KLEANSE_SELECTION_SEND                                           | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | KLEANSE_SELECTION_SEND                                           | KLEANSE_SELECTION_TRT_KLEANSE                                    | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | KLEANSE_SELECTION_TRT_KLEANSE                                    | KLEANSE_SELECTION_MONITORING                                     | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : LOYALTIES_DASHBOARD 
+       | vses         : 000 
+       | label        : 
+       | header       : LOYALTIES_DASHBOARD_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | LOYALTIES_DASHBOARD_D                                            | LOYALTIES_DASHBOARD_CUSTOMER_CARD                                | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | LOYALTIES_DASHBOARD_DISCOUNT_JOB                                 | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | LOYALTIES_DASHBOARD_P4_CONTACTABILITY                            | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | LOYALTIES_DASHBOARD_P6_BABYBOOK                                  | {  }                                                             |                                                                  || 
+       || 0001 | 0006 |  OK  |                                                                  | LOYALTIES_DASHBOARD_P7_ADDON                                     | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : MIXITE 
+       | vses         : 000 
+       | label        : 
+       | header       : INIT_MIXITE
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | INIT_MIXITE                                                      | MIXITE_CONTACT                                                   | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | MIXITE_TCK_KPI                                                   | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | MIXITE_TCK_NON_CARTE                                             | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | MIXITE_TCK_SLICE_LAST_PURCHASE                                   | {  }                                                             |                                                                  || 
+       || 0001 | 0006 |  OK  |                                                                  | MIXITE_WEB_SLICE_LAST_PURCHASE                                   | {  }                                                             |                                                                  || 
+       || 0001 | 0007 |  OK  |                                                                  | MIXITE_WEB_KPI                                                   | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | MIXITE_WEB_KPI                                                   | MIXITE_HISTORIQUE                                                | {  }                                                             |                                                                  || 
+       || 0008 | 0009 |  OK  | MIXITE_HISTORIQUE                                                | MIXITE_TCK_AGGREGATE                                             | {  }                                                             |                                                                  || 
+       || 0008 | 0011 |  OK  |                                                                  | MIXITE_WEB_AGGREGATE                                             | {  }                                                             |                                                                  || 
+       || 0009 | 0010 |  OK  | MIXITE_TCK_AGGREGATE                                             | MIXITE_SUIVI_OP                                                  | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : MIXITE_SEGMENTATION 
+       | vses         : 000 
+       | label        : 
+       | header       : MIXITE_COMPORTEMENT
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | MIXITE_COMPORTEMENT                                              | MIXITE_SEGMENTATION                                              | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : NEW_REACTIVATED_CLIENTS 
+       | vses         : 000 
+       | label        : 
+       | header       : NEW_REACTIVATED_CLIENTS_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | NEW_REACTIVATED_CLIENTS_D                                        | NEW_REACTIVATED_CLIENTS_P1                                       | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | NEW_REACTIVATED_CLIENTS_P1                                       | NEW_REACTIVATED_CLIENTS_P2                                       | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ORIGINE_COLLECTE 
+       | vses         : 000 
+       | label        : Origine collecte
+       | header       : ORIGINE_COLLECTE_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | ORIGINE_COLLECTE_D                                               | SMACK_ORIGINE_COLLECTE_MASTER                                    | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | SMACK_ORIGINE_COLLECTE_MASTER                                    | SMACK_ORIGINE_COLLECTE                                           | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PANAMERA 
+       | vses         : 000 
+       | label        : Panamera
+       | header       : PANAMERA_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | PANAMERA_D                                                       | PANAMERA_100                                                     | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | PANAMERA_100                                                     | PANAMERA_200                                                     | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | PANAMERA_200                                                     | PANAMERA_300                                                     | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | PANAMERA_300                                                     | PANAMERA_400                                                     | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | PANAMERA_400                                                     | SEND_PANAMERA_EXTRACT_CONTACT_TO_SELLIGENT                       | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PDX_HEBDO 
+       | vses         : 000 
+       | label        : 
+       | header       : PDX_HEBDO_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | PDX_HEBDO_D                                                      | INTEGRATION_DATALAKE_PREDICTIX_STORE_PROJECTED_KPI               | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_SUGGESTED_PO_GLOBAL               | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_FORECAST_SKU_COUNTRY_WEEK         | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_REPLENISHMENT_SKU_WAREHOUSE_WEEK  | {  }                                                             |                                                                  || 
+       || 0001 | 0006 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_FORECAST                          | {  }                                                             |                                                                  || 
+       || 0001 | 0007 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_TRANSFERS                         | {  }                                                             |                                                                  || 
+       || 0001 | 0008 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_DC_PROJECTED_KPI                  | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PDX_QUOTIDIEN 
+       | vses         : 000 
+       | label        : 
+       | header       : PDX_QUOTIDIEN_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | PDX_QUOTIDIEN_D                                                  | INTEGRATION_DATALAKE_PREDICTIX_STORE_ATTRIBUTES                  | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | SLEEP_1                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | SLEEP_2                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0007 |  OK  |                                                                  | SLEEP_10                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0009 |  OK  |                                                                  | SLEEP_15                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0011 |  OK  |                                                                  | SLEEP_5                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0013 |  OK  |                                                                  | SLEEP_6                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0015 |  OK  |                                                                  | SLEEP_7                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0017 |  OK  |                                                                  | SLEEP_8                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0019 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_POTENTIAL_SALES                   | {  }                                                             |                                                                  || 
+       || 0001 | 0020 |  OK  |                                                                  | SLEEP_10                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0022 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_DISPLAY_MERCH                     | {  }                                                             |                                                                  || 
+       || 0001 | 0023 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_PRICE                             | {  }                                                             |                                                                  || 
+       || 0001 | 0024 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_PRICE_CHANGE                      | {  }                                                             |                                                                  || 
+       || 0001 | 0025 |  OK  |                                                                  | INTEGRATION_DATALAKE_PREDICTIX_PRICE_OVERRIDE                    | {  }                                                             |                                                                  || 
+       || 0001 | 0026 |  OK  |                                                                  | SLEEP_12                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0028 |  OK  |                                                                  | SLEEP_13                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0030 |  OK  |                                                                  | SLEEP_20                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0032 |  OK  |                                                                  | SLEEP_40                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0034 |  OK  |                                                                  | SLEEP_25                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0036 |  OK  |                                                                  | SLEEP_30                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0038 |  OK  |                                                                  | SLEEP_35                                                         | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | SLEEP_1                                                          | INTEGRATION_DATALAKE_PREDICTIX_STORE_HIERARCHY                   | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | SLEEP_2                                                          | INTEGRATION_DATALAKE_PREDICTIX_PRODUCT                           | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | SLEEP_10                                                         | INTEGRATION_DATALAKE_PREDICTIX_PRODUCT_HIERARCHY_GLT             | {  }                                                             |                                                                  || 
+       || 0009 | 0010 |  OK  | SLEEP_15                                                         | INTEGRATION_DATALAKE_PREDICTIX_PRODUCT_HIERARCHY_PDT             | {  }                                                             |                                                                  || 
+       || 0011 | 0012 |  OK  | SLEEP_5                                                          | INTEGRATION_DATALAKE_PREDICTIX_PRODUCT_ATTRIBUTES                | {  }                                                             |                                                                  || 
+       || 0013 | 0014 |  OK  | SLEEP_6                                                          | INTEGRATION_DATALAKE_PREDICTIX_GAMMA                             | {  }                                                             |                                                                  || 
+       || 0015 | 0016 |  OK  | SLEEP_7                                                          | INTEGRATION_DATALAKE_PREDICTIX_GRADE                             | {  }                                                             |                                                                  || 
+       || 0017 | 0018 |  OK  | SLEEP_8                                                          | INTEGRATION_DATALAKE_PREDICTIX_SALES                             | {  }                                                             |                                                                  || 
+       || 0020 | 0021 |  OK  | SLEEP_10                                                         | INTEGRATION_DATALAKE_PREDICTIX_ZONE_GRADE                        | {  }                                                             |                                                                  || 
+       || 0026 | 0027 |  OK  | SLEEP_12                                                         | INTEGRATION_DATALAKE_PREDICTIX_DMDC                              | {  }                                                             |                                                                  || 
+       || 0028 | 0029 |  OK  | SLEEP_13                                                         | INTEGRATION_DATALAKE_PREDICTIX_PERIODS                           | {  }                                                             |                                                                  || 
+       || 0030 | 0031 |  OK  | SLEEP_20                                                         | INTEGRATION_DATALAKE_PREDICTIX_SEGMENTATION                      | {  }                                                             |                                                                  || 
+       || 0032 | 0033 |  OK  | SLEEP_40                                                         | INTEGRATION_DATALAKE_PREDICTIX_SIZE_GRID                         | {  }                                                             |                                                                  || 
+       || 0034 | 0035 |  OK  | SLEEP_25                                                         | INTEGRATION_DATALAKE_PREDICTIX_GRADE                             | {  }                                                             |                                                                  || 
+       || 0036 | 0037 |  OK  | SLEEP_30                                                         | INTEGRATION_DATALAKE_PREDICTIX_EVENT                             | {  }                                                             |                                                                  || 
+       || 0038 | 0039 |  OK  | SLEEP_35                                                         | INTEGRATION_DATALAKE_PREDICTIX_SUGGESTED_PO                      | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PERSO_NAVIG_WEB 
+       | vses         : 000 
+       | label        : 
+       | header       : PERSO_NAVIG_WEB_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | PERSO_NAVIG_WEB_D                                                | SMACK_PERSO_WEB_P2_PURE_STORE                                    | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | SMACK_PERSO_WEB_P2_PURE_STORE_M                                  | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | SMACK_PERSO_WEB_P2_PURE_STORE                                    | SMACK_PERSO_WEB_TAILLANT_IDENTIFIES                              | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | SMACK_PERSO_WEB_TAILLANT_IDENTIFIES                              | SMACK_PERSO_WEB_TAILLANT_ANONYMES                                | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PHOTOSTOCKINVLOG 
+       | vses         : 000 
+       | label        : 
+       | header       : PHOTOSTOCK_INV_DTL
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | PHOTOSTOCK_INV_DTL                                               | PHOTOSTOCK_BKP                                                   | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PMAS 
+       | vses         : 000 
+       | label        : 
+       | header       : PMAS_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | PMAS_D                                                           | PMAS_PREPARE_100_TICKETS                                         | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | PMAS_PREPARE_100_TICKETS                                         | PMAS_AGGREGATE_200_PMAS_US01                                     | {  }                                                             |                                                                  || 
+       || 0002 | 0004 |  OK  |                                                                  | PMAS_AGGREGATE_200_PMAS_US02                                     | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : REFERENTIEL_ENTREPOTS 
+       | vses         : 000 
+       | label        : 
+       | header       : COPIE_REFERENTIEL_ENTREPOTS
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | COPIE_REFERENTIEL_ENTREPOTS                                      | COPIE_REFERENTIEL_ENTREPOTS_DTL                                  | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | COPIE_REFERENTIEL_ENTREPOTS_DTL                                  | SUPPRESSION_REFERENTIEL_ENTREPOTS_STG                            | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | SUPPRESSION_REFERENTIEL_ENTREPOTS_STG                            | ROUTINE_REFERENTIEL_WAREHOUSES                                   | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : REF_INV 
+       | vses         : 000 
+       | label        : 
+       | header       : INTEGRATION_REF_INV
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | INTEGRATION_REF_INV                                              | FLUX_INV_MAG                                                     | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : REPRISE_SMACK_ROCK_CONSOLIDATION_ET_MENSUEL 
+       | vses         : 000 
+       | label        : Reprise des partitions smack rock consolidation et smack mensuel
+       | header       : REPRISE_SMACK_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | REPRISE_SMACK_D                                                  | REPRISE_SMACK_ROCK_CONSOLIDATION_TICKETS                         | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | REPRISE_SMACK_ROCK_CONSOLIDATION_COMMANDES                       | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | REPRISE_SMACK_ROCK_CONSOLIDATION                                 | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | REPRISE_SMACK_ROCK_CONSOLIDATION                                 | REPRISE_SMACK_ALL_M                                              | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SELLIGENT_DATALAKE 
+       | vses         : 000 
+       | label        : 
+       | header       : INTEGRATION_DATALAKE_SELLIGENT_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_D                                 | INTEGRATION_DATALAKE_SELLIGENT_CAMPAIGNS                         | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_CAMPAIGNS                         | INTEGRATION_DATALAKE_SELLIGENT_CAMPAIGN_EXECLOG                  | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_CAMPAIGN_EXECLOG                  | INTEGRATION_DATALAKE_SELLIGENT_ACTIONQUEUE                       | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_ACTIONQUEUE                       | INTEGRATION_DATALAKE_SELLIGENT_FLAGS                             | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_FLAGS                             | INTEGRATION_DATALAKE_SELLIGENT_SIM_MAILCLIENTS                   | {  }                                                             |                                                                  || 
+       || 0006 | 0007 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_SIM_MAILCLIENTS                   | INTEGRATION_DATALAKE_SELLIGENT_MAILS                             | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_MAILS                             | INTEGRATION_DATALAKE_SELLIGENT_MAIL_PROBES                       | {  }                                                             |                                                                  || 
+       || 0008 | 0009 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_MAIL_PROBES                       | INTEGRATION_DATALAKE_SELLIGENT_MAILTREE                          | {  }                                                             |                                                                  || 
+       || 0009 | 0010 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_MAILTREE                          | INTEGRATION_DATALAKE_SELLIGENT_SEGMENTS                          | {  }                                                             |                                                                  || 
+       || 0010 | 0011 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_SEGMENTS                          | INTEGRATION_DATALAKE_SELLIGENT_SMS_FEEDBACK                      | {  }                                                             |                                                                  || 
+       || 0011 | 0012 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_SMS_FEEDBACK                      | INTEGRATION_DATALAKE_SELLIGENT_SMS_TARGETING                     | {  }                                                             |                                                                  || 
+       || 0012 | 0013 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_SMS_TARGETING                     | INTEGRATION_DATALAKE_SELLIGENT_POSTMAIL_TARGETING                | {  }                                                             |                                                                  || 
+       || 0013 | 0014 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_POSTMAIL_TARGETING                | INTEGRATION_DATALAKE_SELLIGENT_MOBILE_APP_TARGETING              | {  }                                                             |                                                                  || 
+       || 0014 | 0015 |  OK  | INTEGRATION_DATALAKE_SELLIGENT_MOBILE_APP_TARGETING              | INTEGRATION_DATALAKE_SELLIGENT_MOBILE_APP_EVENTS                 | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SHORTWMOS 
+       | vses         : 000 
+       | label        : 
+       | header       : SHORTWMOS_INDIC
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | SHORTWMOS_INDIC                                                  | SHORTWMOS_INDIC_BKP                                              | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_ALL 
+       | vses         : 000 
+       | label        : 
+       | header       : SMACK_ALL_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | SMACK_ALL_D                                                      | SMACK_ROCK_CONSOLIDATION                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | SMACK_ROCK_CONSOLIDATION_COMMANDES                               | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | SMACK_ROCK_CONSOLIDATION_TICKETS                                 | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | SMACK_ALL                                                        | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | SMACK_ALL                                                        | SMACK_ALL_PUBLIC                                                 | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_ALL_MENSUEL 
+       | vses         : 000 
+       | label        : 
+       | header       : SMACK_ALL_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | SMACK_ALL_D                                                      | ENVOI_MAIL_DEBUT_SMACK_ALL                                       | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | ENVOI_MAIL_DEBUT_SMACK_ALL                                       | SMACK_ROCK_CARTES_M                                              | {  }                                                             |                                                                  || 
+       || 0002 | 0026 |  OK  |                                                                  | SMACK_ROCK_COMPTES_M                                             | {  }                                                             |                                                                  || 
+       || 0002 | 0029 |  OK  |                                                                  | SMACK_ROCK_CONSOLIDATION_M                                       | {  }                                                             |                                                                  || 
+       || 0002 | 0030 |  OK  |                                                                  | SMACK_ROCK_GA_SESSIONS_M                                         | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | SMACK_ROCK_CARTES_M                                              | SMACK_ROCK_TICKETS_M                                             | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | SMACK_ROCK_TICKETS_M                                             | SMACK_ROCK_CONSOLIDATION_TICKETS_M                               | {  }                                                             |                                                                  || 
+       || 0004 | 0006 |  OK  |                                                                  | PERSO_WEB_M                                                      | {  }                                                             |                                                                  || 
+       || 0004 | 0007 |  OK  |                                                                  | SMACK_ALL_M                                                      | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | SMACK_ALL_M                                                      | SMACK_ALL_PUBLIC_M                                               | {  }                                                             |                                                                  || 
+       || 0007 | 0009 |  OK  |                                                                  | ENVOI_MAIL_FIN_SMACK_ALL                                         | {  }                                                             |                                                                  || 
+       || 0007 | 0018 |  OK  |                                                                  | SMACK_ALL_ACHATS_CROISES                                         | {  }                                                             |                                                                  || 
+       || 0007 | 0019 |  OK  |                                                                  | SMACK_ALL_COMPORTEMENT_ACHATS                                    | {  }                                                             |                                                                  || 
+       || 0007 | 0020 |  OK  |                                                                  | SMACK_ALL_DATACLIENTELING_MENSUEL                                | {  }                                                             |                                                                  || 
+       || 0007 | 0021 |  OK  |                                                                  | SMACK_ALL_HISTO_DASHBOARD_ANONYMES                               | {  }                                                             |                                                                  || 
+       || 0007 | 0022 |  OK  |                                                                  | DATAFORM_PERFCO                                                  | {  }                                                             |                                                                  || 
+       || 0007 | 0023 |  OK  |                                                                  | SMACK_COLLECTION                                                 | {  }                                                             |                                                                  || 
+       || 0007 | 0024 |  OK  |                                                                  | SMACK_ALL_BQ                                                     | {  }                                                             |                                                                  || 
+       || 0009 | 0010 |  OK  | ENVOI_MAIL_FIN_SMACK_ALL                                         | SMACK_ALL_MARKETING                                              | {  }                                                             |                                                                  || 
+       || 0009 | 0011 |  OK  |                                                                  | SMACK_ALL_PMAS                                                   | {  }                                                             |                                                                  || 
+       || 0009 | 0012 |  OK  |                                                                  | MIXITE_COMPORTEMENT                                              | {  }                                                             |                                                                  || 
+       || 0009 | 0014 |  OK  |                                                                  | SMACK_ALL_CUSTOMER_RETENTION                                     | {  }                                                             |                                                                  || 
+       || 0009 | 0015 |  OK  |                                                                  | SMACK_ALL_LOYALTIES_DASHBOARD                                    | {  }                                                             |                                                                  || 
+       || 0009 | 0016 |  OK  |                                                                  | LOYALTIES_REMISE_FID_ALL                                         | {  }                                                             |                                                                  || 
+       || 0012 | 0013 |  OK  | MIXITE_COMPORTEMENT                                              | MIXITE_SEGMENTATION                                              | {  }                                                             |                                                                  || 
+       || 0016 | 0017 |  OK  | LOYALTIES_REMISE_FID_ALL                                         | LOYALTIES_DASHBOARD_DISCOUNT_JOB                                 | {  }                                                             |                                                                  || 
+       || 0024 | 0025 |  OK  | SMACK_ALL_BQ                                                     | SEGMENTATION_RFM_BQ                                              | {  }                                                             |                                                                  || 
+       || 0026 | 0027 |  OK  | SMACK_ROCK_COMPTES_M                                             | SMACK_ROCK_COMMANDES_M                                           | {  }                                                             |                                                                  || 
+       || 0027 | 0028 |  OK  | SMACK_ROCK_COMMANDES_M                                           | SMACK_ROCK_CONSOLIDATION_COMMANDES_M                             | {  }                                                             |                                                                  || 
+       || 0030 | 0031 |  OK  | SMACK_ROCK_GA_SESSIONS_M                                         | SMACK_ROCK_MIXITE_M                                              | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_OKR_WEB 
+       | vses         : 000 
+       | label        : 
+       | header       : SMACK_OKR_WEB_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | SMACK_OKR_WEB_D                                                  | SMACK_OKR_WEB_SESSION_MONITORING                                 | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | SMACK_OKR_WEB_SESSION_MONITORING                                 | SMACK_OKR_WEB_FIDELITY_CONVERSION                                | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | SMACK_OKR_WEB_FIDELITY_CONVERSION                                | SMACK_OKR_WEB_ROPO_AND_SEARCH                                    | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | SMACK_OKR_WEB_ROPO_AND_SEARCH                                    | SMACK_OKR_WEB_CUSTOMER_XCANAL                                    | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | SMACK_OKR_WEB_CUSTOMER_XCANAL                                    | SMACK_OKR_WEB_FINAL                                              | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_LOY_FOCUS_KLIENT_NEW 
+       | vses         : 000 
+       | label        : Session de lct des scripts LOYALTIES FOCUS KLIENT_NEW sur SMACKc
+       | header       : LIDLSES
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | LIDLSES                                                          | INIT_ALIM_LOYALTIES_FOCUS_KLIENT                                 | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | INIT_ALIM_LOYALTIES_FOCUS_KLIENT                                 | ALIM_LOYALTIES_FOCUS_KLIENT_FID_PREPARE_LOYALTIES                | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_FID_PREPARE_LOYALTIES                | CONTACTS_FOCUS_DATARAW                                           | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | CONTACTS_FOCUS_DATARAW                                           | ALIM_LOYALTIES_FOCUS_KLIENT_TCK_PREPARE_NOCARTE                  | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_TCK_PREPARE_NOCARTE                  | ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_PREPARE_SMACK_FID              | {  }                                                             |                                                                  || 
+       || 0006 | 0007 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_PREPARE_SMACK_FID              | ALIM_LOYALTIES_FOCUS_KLIENT_PREPARE_CARTS                        | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_PREPARE_CARTS                        | ALIM_LOYALTIES_FOCUS_KLIENT_DERIVE_RFM_CLUSTER_STYLES            | {  }                                                             |                                                                  || 
+       || 0008 | 0009 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_DERIVE_RFM_CLUSTER_STYLES            | ALIM_LOYALTIES_FOCUS_KLIENT_CMD_DERIVE_COMMANDES                 | {  }                                                             |                                                                  || 
+       || 0009 | 0010 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_CMD_DERIVE_COMMANDES                 | ALIM_LOYALTIES_FOCUS_KLIENT_FID_DERIVE_LIVRET_ACHATS             | {  }                                                             |                                                                  || 
+       || 0010 | 0011 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_FID_DERIVE_LIVRET_ACHATS             | ALIM_LOYALTIES_FOCUS_KLIENT_FID_DERIVE_LIVRET                    | {  }                                                             |                                                                  || 
+       || 0011 | 0012 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_FID_DERIVE_LIVRET                    | ALIM_LOYALTIES_FOCUS_KLIENT_TCK_DERIVE_TICKETS_NOCARTE           | {  }                                                             |                                                                  || 
+       || 0012 | 0013 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_TCK_DERIVE_TICKETS_NOCARTE           | ALIM_LOYALTIES_FOCUS_KLIENT_TCK_DERIVE_TICKETS                   | {  }                                                             |                                                                  || 
+       || 0013 | 0014 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_TCK_DERIVE_TICKETS                   | ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_AGGREGATE_SMACK_FID            | {  }                                                             |                                                                  || 
+       || 0014 | 0015 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_AGGREGATE_SMACK_FID            | ALIM_LOYALTIES_FOCUS_KLIENT_FID_FOKUS_KLIENT                     | {  }                                                             |                                                                  || 
+       || 0015 | 0016 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_FID_FOKUS_KLIENT                     | ALIM_LOYALTIES_FOCUS_KLIENT_SPLIT_AVRO                           | {  }                                                             |                                                                  || 
+       || 0016 | 0017 |  OK  | ALIM_LOYALTIES_FOCUS_KLIENT_SPLIT_AVRO                           | FOCUS_KLIENT_UPDATE_TABLE                                        | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : TEST_PASSAGE_ARGUMENT 
+       | vses         : 000 
+       | label        : 
+       | header       : REPRISE_SMACK_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | REPRISE_SMACK_D                                                  | TEST_PASSAGE_ARGUMENT                                            | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : TINYCLUES 
+       | vses         : 000 
+       | label        : 
+       | header       : TINYCLUES_CHECKS_BEFORE_RUN
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | TINYCLUES_CHECKS_BEFORE_RUN                                      | TINYCLUES_FULL_LOAD                                              | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | TINYCLUES_FULL_LOAD                                              | TINYCLUES_DATA_TRANSFERT                                         | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : VALIUZ 
+       | vses         : 000 
+       | label        : 
+       | header       : VALIUZ_100_STORES
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | VALIUZ_100_STORES                                                | VALIUZ_200_PRODUCTS                                              | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | VALIUZ_200_PRODUCTS                                              | VALIUZ_300_PREPARE_DATALAKE                                      | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | VALIUZ_300_PREPARE_DATALAKE                                      | VALIUZ_300_PREPARE_RAW                                           | {  }                                                             |                                                                  || 
+       || 0004 | 0005 |  OK  | VALIUZ_300_PREPARE_RAW                                           | VALIUZ_300_CONTACTS                                              | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | VALIUZ_300_CONTACTS                                              | VALIUZ_400_TICKETS                                               | {  }                                                             |                                                                  || 
+       || 0006 | 0007 |  OK  | VALIUZ_400_TICKETS                                               | VALIUZ_500_WEBORDERS                                             | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : VALIUZ_SCORE_EXPORT_GCP 
+       | vses         : 000 
+       | label        : 
+       | header       : VALIUZ_SCORE_EXPORT_DATALAKE
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | VALIUZ_SCORE_EXPORT_DATALAKE                                     | VALIUZ_SCORE_EXPORT_DATARAW                                      | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : WSSI 
+       | vses         : 000 
+       | label        : 
+       | header       : WSSI_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | WSSI_D                                                           | SUPPLY_WSSI_DMDC                                                 | {  }                                                             |                                                                  || 
+       || 0001 | 0011 |  OK  |                                                                  | SLEEP_1                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0013 |  OK  |                                                                  | SLEEP_2                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0015 |  OK  |                                                                  | SLEEP_5                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0017 |  OK  |                                                                  | SLEEP_10                                                         | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | SUPPLY_WSSI_DMDC                                                 | SUPPLY_WSSI_STORES_PRIOR                                         | {  }                                                             |                                                                  || 
+       || 0002 | 0005 |  OK  |                                                                  | SLEEP_2                                                          | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | SUPPLY_WSSI_STORES_PRIOR                                         | SUPPLY_WSSI_WAREHOUSE_PRIOR                                      | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | SLEEP_2                                                          | SUPPLY_WSSI_STORES_PROJECTED                                     | {  }                                                             |                                                                  || 
+       || 0006 | 0007 |  OK  | SUPPLY_WSSI_STORES_PROJECTED                                     | SUPPLY_WSSI_WAREHOUSE_PROJECTED                                  | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | SUPPLY_WSSI_WAREHOUSE_PROJECTED                                  | SUPPLY_WSSI_STORES_DEP                                           | {  }                                                             |                                                                  || 
+       || 0007 | 0009 |  OK  |                                                                  | SLEEP_1                                                          | {  }                                                             |                                                                  || 
+       || 0009 | 0010 |  OK  | SLEEP_1                                                          | SUPPLY_WSSI_WAREHOUSE_DEP                                        | {  }                                                             |                                                                  || 
+       || 0011 | 0012 |  OK  | SLEEP_1                                                          | SUPPLY_WSSI_INVENTORY                                            | {  }                                                             |                                                                  || 
+       || 0013 | 0014 |  OK  | SLEEP_2                                                          | SUPPLY_WSSI_INVENTORY_PRIOR                                      | {  }                                                             |                                                                  || 
+       || 0015 | 0016 |  OK  | SLEEP_5                                                          | SUPPLY_WSSI_STORE_ALLOCATION                                     | {  }                                                             |                                                                  || 
+       || 0017 | 0018 |  OK  | SLEEP_10                                                         | SUPPLY_WSSI_STYLES                                               | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : WSSI_PRIOR 
+       | vses         : 000 
+       | label        : 
+       | header       : WSSI_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | WSSI_D                                                           | SUPPLY_WSSI_DMDC                                                 | {  }                                                             |                                                                  || 
+       || 0001 | 0011 |  OK  |                                                                  | SLEEP_10                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0013 |  OK  |                                                                  | SLEEP_1                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0015 |  OK  |                                                                  | SLEEP_2                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0017 |  OK  |                                                                  | SLEEP_5                                                          | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | SUPPLY_WSSI_DMDC                                                 | SUPPLY_WSSI_STORES_PRIOR                                         | {  }                                                             |                                                                  || 
+       || 0002 | 0005 |  OK  |                                                                  | SLEEP_5                                                          | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | SUPPLY_WSSI_STORES_PRIOR                                         | SUPPLY_WSSI_WAREHOUSE_PRIOR                                      | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | SLEEP_5                                                          | SUPPLY_WSSI_STORES_PROJECTED                                     | {  }                                                             |                                                                  || 
+       || 0006 | 0007 |  OK  | SUPPLY_WSSI_STORES_PROJECTED                                     | SUPPLY_WSSI_WAREHOUSE_PROJECTED                                  | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | SUPPLY_WSSI_WAREHOUSE_PROJECTED                                  | SUPPLY_WSSI_STORES_DEP                                           | {  }                                                             |                                                                  || 
+       || 0007 | 0009 |  OK  |                                                                  | SLEEP_1                                                          | {  }                                                             |                                                                  || 
+       || 0009 | 0010 |  OK  | SLEEP_1                                                          | SUPPLY_WSSI_WAREHOUSE_DEP                                        | {  }                                                             |                                                                  || 
+       || 0011 | 0012 |  OK  | SLEEP_10                                                         | SUPPLY_WSSI_INVENTORY                                            | {  }                                                             |                                                                  || 
+       || 0013 | 0014 |  OK  | SLEEP_1                                                          | SUPPLY_WSSI_INVENTORY_PRIOR                                      | {  }                                                             |                                                                  || 
+       || 0015 | 0016 |  OK  | SLEEP_2                                                          | SUPPLY_WSSI_STORE_ALLOCATION                                     | {  }                                                             |                                                                  || 
+       || 0017 | 0018 |  OK  | SLEEP_5                                                          | SUPPLY_WSSI_STYLES                                               | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : WSSI_PROJECTED 
+       | vses         : 000 
+       | label        : 
+       | header       : WSSI_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | WSSI_D                                                           | SUPPLY_WSSI_DMDC                                                 | {  }                                                             |                                                                  || 
+       || 0001 | 0011 |  OK  |                                                                  | SLEEP_1                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0013 |  OK  |                                                                  | SLEEP_10                                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0015 |  OK  |                                                                  | SLEEP_2                                                          | {  }                                                             |                                                                  || 
+       || 0001 | 0017 |  OK  |                                                                  | SLEEP_5                                                          | {  }                                                             |                                                                  || 
+       || 0002 | 0003 |  OK  | SUPPLY_WSSI_DMDC                                                 | SUPPLY_WSSI_STORES_PRIOR                                         | {  }                                                             |                                                                  || 
+       || 0002 | 0005 |  OK  |                                                                  | SLEEP_2                                                          | {  }                                                             |                                                                  || 
+       || 0003 | 0004 |  OK  | SUPPLY_WSSI_STORES_PRIOR                                         | SUPPLY_WSSI_WAREHOUSE_PRIOR                                      | {  }                                                             |                                                                  || 
+       || 0005 | 0006 |  OK  | SLEEP_2                                                          | SUPPLY_WSSI_STORES_PROJECTED                                     | {  }                                                             |                                                                  || 
+       || 0006 | 0007 |  OK  | SUPPLY_WSSI_STORES_PROJECTED                                     | SUPPLY_WSSI_WAREHOUSE_PROJECTED                                  | {  }                                                             |                                                                  || 
+       || 0007 | 0008 |  OK  | SUPPLY_WSSI_WAREHOUSE_PROJECTED                                  | SUPPLY_WSSI_STORES_DEP                                           | {  }                                                             |                                                                  || 
+       || 0007 | 0009 |  OK  |                                                                  | SLEEP_5                                                          | {  }                                                             |                                                                  || 
+       || 0009 | 0010 |  OK  | SLEEP_5                                                          | SUPPLY_WSSI_WAREHOUSE_DEP                                        | {  }                                                             |                                                                  || 
+       || 0011 | 0012 |  OK  | SLEEP_1                                                          | SUPPLY_WSSI_INVENTORY                                            | {  }                                                             |                                                                  || 
+       || 0013 | 0014 |  OK  | SLEEP_10                                                         | SUPPLY_WSSI_INVENTORY_PRIOR                                      | {  }                                                             |                                                                  || 
+       || 0015 | 0016 |  OK  | SLEEP_2                                                          | SUPPLY_WSSI_STORE_ALLOCATION                                     | {  }                                                             |                                                                  || 
+       || 0017 | 0018 |  OK  | SLEEP_5                                                          | SUPPLY_WSSI_STYLES                                               | {  }                                                             |                                                                  || 
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : WSSI_V2 
+       | vses         : 000 
+       | label        : 
+       | header       : WSSI_D
+       | links        :
+       |
+       || NumF | NumS | Path |                              Father                              |                               Son                                |                              HDP/MU                              |                           Return Code                            || 
+       || 0001 | 0002 |  OK  | WSSI_D                                                           | SUPPLY_WSSI_INVENTORY                                            | {  }                                                             |                                                                  || 
+       || 0001 | 0003 |  OK  |                                                                  | SUPPLY_WSSI_STORE_ALLOCATION                                     | {  }                                                             |                                                                  || 
+       || 0001 | 0004 |  OK  |                                                                  | SUPPLY_WSSI_STYLES                                               | {  }                                                             |                                                                  || 
+       || 0001 | 0005 |  OK  |                                                                  | SUPPLY_WSSI_INVENTORY_PRIOR                                      | {  }                                                             |                                                                  || 
+       || 0001 | 0006 |  OK  |                                                                  | SUPPLY_WSSI_DMDC                                                 | {  }                                                             |                                                                  || 
+       || 0001 | 0007 |  OK  |                                                                  | SUPPLY_WSSI_STORES_PRIOR                                         | {  }                                                             |                                                                  || 
+       || 0001 | 0008 |  OK  |                                                                  | SUPPLY_WSSI_STORES_PROJECTED                                     | {  }                                                             |                                                                  || 
+       || 0001 | 0009 |  OK  |                                                                  | SUPPLY_WSSI_WAREHOUSE_PROJECTED                                  | {  }                                                             |                                                                  || 
+       || 0001 | 0010 |  OK  |                                                                  | SUPPLY_WSSI_WAREHOUSE_DEP                                        | {  }                                                             |                                                                  || 
+       || 0001 | 0011 |  OK  |                                                                  | SUPPLY_WSSI_STORES_DEP                                           | {  }                                                             |                                                                  || 
+       || 0001 | 0012 |  OK  |                                                                  | SUPPLY_WSSI_WAREHOUSE_PRIOR                                      | {  }                                                             |                                                                  || 
+       |
+

@@ -1,0 +1,801 @@
+ Command : uxshw ses exp ses=* lst vses=* node=gcexdol01idlpro
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ACQUISITION 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : SMACK_ACQUISITION_SOCLE
+                      | upr  : SMACK_ACQUISITION_US2
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : AGGREGATS 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : AGGRETGATS_D
+                      | upr  : SMACK_ROCK_CARTES
+                      | upr  : SMACK_ROCK_TICKETS
+                      | upr  : SMACK_ROCK_COMPTES
+                      | upr  : SMACK_ROCK_COMMANDES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_D
+                      | upr  : ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_ACTIONQUEUE
+                      | upr  : ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_FLAGS
+                      | upr  : ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_SMS_FEEDBACK
+                      | upr  : ALIMENTATION_SPECIFIQUE_TABLE_BASE_DATARAW_SMS_TARGETING
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : API_JOB 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXPORT_MONGODB_D
+                      | upr  : SMACK_EXPORT_CUSTOMERS_METRICS
+                      | upr  : SMACK_EXPORT_UNKNOWN_VISITORS_METRICS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CALCUL_DATARAW 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : CALCUL_DATARAW_D
+                      | upr  : CONTACTS_DATARAW
+                      | upr  : LOYALTIES_DATARAW
+                      | upr  : OPERATIONALSTRUCTURE_DATARAW
+                      | upr  : PMAS_DATARAW
+                      | upr  : PRODUCTHIERARCHY_DATARAW
+                      | upr  : PROMOLIST_DATARAW
+                      | upr  : SALES_DATARAW
+                      | upr  : SELLIGENT_ACTIONQUEUE_DATARAW
+                      | upr  : SELLIGENT_CAMPAIGN_EXECLOG_DATARAW
+                      | upr  : SELLIGENT_CAMPAIGNS_DATARAW
+                      | upr  : SELLIGENT_FLAGS_DATARAW
+                      | upr  : SELLIGENT_MAIL_PROBES_DATARAW
+                      | upr  : SELLIGENT_MAILS_DATARAW
+                      | upr  : SELLIGENT_MAILTREE_DATARAW
+                      | upr  : SELLIGENT_POSTMAIL_TARGETING_DATARAW
+                      | upr  : SELLIGENT_SEGMENTS_DATARAW
+                      | upr  : SELLIGENT_SIM_MAILCLIENTS_DATARAW
+                      | upr  : SELLIGENT_SMS_FEEDBACK_DATARAW
+                      | upr  : SELLIGENT_SMS_TARGETING_DATARAW
+                      | upr  : STORES_DATARAW
+                      | upr  : STORESOPERATIONALSTRUCTURE_DATARAW
+                      | upr  : SUPPLIERS_DATARAW
+                      | upr  : WEBORDERS_DATARAW
+                      | upr  : VOUCHERS_DATARAW
+                      | upr  : STYLES_DATARAW
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CAMPAIGN_MONITORING 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : CAMPAIGN_MONITORING_D
+                      | upr  : CAMPAIGN_MONITORING_SOCLE_GOOGLE_ANALYTICS
+                      | upr  : CAMPAIGN_MONITORING_SOCLE_ROCK
+                      | upr  : CAMPAIGN_MONITORING_TOP_SALES_VIEWS
+                      | upr  : CAMPAIGN_MONITORING_SOCLE_SELLIGENT
+                      | upr  : CAMPAIGN_MONITORING_TRIGGER
+                      | upr  : CAMPAIGN_MONITORING_MARKETING
+                      | upr  : CAMPAIGN_MONITORING_EXTRA
+                      | upr  : CAMPAIGN_MONITORING_WEB_TRAFFIC
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : COLLECTION 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : COLLECTION_D
+                      | upr  : COLLECTION_CUSTOMER_PROFILE_BY_PRODUCT
+                      | upr  : COLLECTION_MARKET_INDICATORS
+                      | upr  : COLLECTION_TOP_5_SALES_STORE_WEB
+                      | upr  : COLLECTION_TOP_5_ORDER_WEB_ERESA
+                      | upr  : COLLECTION_CUSTOMPROFILE_AND_ZOOMPRODUCT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CONVERTEO 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : CONVERTEO_D
+                      | upr  : OFFLINE_CA_TRANSFERT
+                      | upr  : SLEEP_2
+                      | upr  : ONLINE_CA_TRANSFERT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : COUNT_TABLE_GCP 
+       | vses         : 000 
+       | label        : count_table_gcp
+       | list         :
+                      | upr  : COUNT_TABLE_GCP_DATALAKE
+                      | upr  : COUNT_TABLE_GCP_AGREGATS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CUSTOMER_RETENTION 
+       | vses         : 000 
+       | label        : Customer retention
+       | list         :
+                      | upr  : CUSTOMER_RETENTION_D
+                      | upr  : PREPARE_100_CUSTOMER_RETENTION
+                      | upr  : PREPARE_200_CUSTOMER_RETENTION
+                      | upr  : PREPARE_201_CUSTOMER_RETENTION
+                      | upr  : PREPARE_202_CUSTOMER_RETENTION
+                      | upr  : PREPARE_203_CUSTOMER_RETENTION
+                      | upr  : PREPARE_204_CUSTOMER_RETENTION
+                      | upr  : PREPARE_205_CUSTOMER_RETENTION
+                      | upr  : PREPARE_ALL_SCORES_CUSTOMER_RETENTION
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : DETECTION_FICHIER_KLEANSE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : DETECTION_FICHIER_KLEANSE_ANO
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : EXPORT_TO_SFTP_VALIUZ 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXPORT_TO_SFTP_VALIUZ_D
+                      | upr  : VALIUZ_SCORE_SEGMENT
+                      | upr  : VALIUZ_100_STORES
+                      | upr  : VALIUZ_200_PRODUCTS
+                      | upr  : VALIUZ_300_CONTACTS
+                      | upr  : VALIUZ_300_PREPARE_DATALAKE
+                      | upr  : VALIUZ_300_PREPARE_RAW
+                      | upr  : VALIUZ_400_TICKETS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : GA 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : GA_D
+                      | upr  : SMACK_ROCK_GA_SESSIONS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : GOOGLE_ANALYTICS 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : GOOGLE_ANALYTICS_D
+                      | upr  : SLEEP_120
+                      | upr  : INTEGRATION_STAGING_GOOGLE_ANALYTICS
+                      | upr  : ACQUISITION
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : GOOGLE_SSD 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : GOOGLE_SSD_D
+                      | upr  : GOOGLE_SSD_BE
+                      | upr  : GOOGLE_SSD_ES
+                      | upr  : GOOGLE_SSD_FR
+                      | upr  : GOOGLE_SSD_IT
+                      | upr  : SSD_FULL_LOAD
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : HISTO_DASHBOARD_ANONYMES 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : HISTO_DASHBOARD_ANONYMES_D
+                      | upr  : SMACK_HISTO_RFM_MATRICE_PASSAGE
+                      | upr  : SMACK_TICKET_MAGASIN_1RM
+                      | upr  : SMACK_HISTO_KPI_1RM
+                      | upr  : SMACK_HISTO_KPI_12RM
+                      | upr  : SMACK_HISTO_PROFIL_1RM
+                      | upr  : SMACK_HISTO_PROFIL_12RM
+                      | upr  : SMACK_HISTO_CLUSTER_CLIENT_STYLE
+                      | upr  : SMACK_HISTO_WEB_1RM
+                      | upr  : SMACK_HISTO_WEB_12RM
+                      | upr  : SMACK_HISTO_COMPLETUDE
+                      | upr  : SMACK_HISTO_RFM_CA_CLASSE
+                      | upr  : SMACK_HISTO_TRANSFER_MATRIX
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_COPYFILE 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX du flux COPYFILE
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : FLX_COPYFILE_PDX
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_STORE_PROJECTED_KPI
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_SUGGESTED_PO_GLOBAL
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST_SKU_COUNTRY_WEEK
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_REPLENISHMENT_SKU_WAREHOUSE_WEEK
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_TRANSFERS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_DC_PROJECTED_KPI
+                      | upr  : EXEC_LANCEUR_GENERATION_RAA
+                      | upr  : EXEC_LANCEUR_GENERATION_LSD
+                      | upr  : EXEC_MAKE_DATARAW_PDX_COPYFILE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : INVENTAIRE_MAGASIN 
+       | vses         : 000 
+       | label        : inventaire magasin
+       | list         :
+                      | upr  : INTEGRATION_REF_INV
+                      | upr  : FLUX_INV_MAG
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ITFASUE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : ITFASUE_D
+                      | upr  : ITFASUE-100-TRANSFERT
+                      | upr  : ITFASUE-200-PURCHASEORDERS
+                      | upr  : ITFASUE-300-JOIN-TRF-PO
+                      | upr  : ITFASUE-400-AGG1
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IU_UMNT_GCP 
+       | vses         : 000 
+       | label        : DUAS v6 Unix Maintenance GCP
+       | list         :
+                      | upr  : IU_UMNT_H_GCP
+                      | upr  : IU_UMNTOAX_GCP
+                      | upr  : IU_UMNTOLB_GCP
+                      | upr  : IU_UMNTPOA_GCP
+                      | upr  : IU_UMNT_T_GCP
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : KLEANSE_ANO 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : KLEANSE_ANO_D
+                      | upr  : RM_KLEANSE_STAGING_TMP
+                      | upr  : KLEANSE_COPYFILE_TO_TMP_STAGING
+                      | upr  : KLEANSE_ANO_START
+                      | upr  : KLEANSE_ANO_CONTACTS
+                      | upr  : KLEANSE_ANO_END
+                      | upr  : KLEANSE_ANO_SMACK_ALL
+                      | upr  : KLEANSE_ANO_SALES
+                      | upr  : KLEANSE_ANO_LOYALTIES
+                      | upr  : 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_CIBLAGES_COURRIER
+                      | upr  : 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_CIBLAGES_EMAIL
+                      | upr  : 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_CIBLAGES_SMS
+                      | upr  : 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_CLICS
+                      | upr  : 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_OUVERTURES
+                      | upr  : 100_ALIM_CNIL_ANONYMISATION_CAMPAIGN_CAB_RETOUR_SMS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : KLEANSE_SELECTION 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : KLEANSE_SELECTION_D
+                      | upr  : KLEANSE_SELECTION_SOCLE
+                      | upr  : KLEANSE_SELECTION_AGGREGATE
+                      | upr  : KLEANSE_SELECTION_SEND
+                      | upr  : KLEANSE_SELECTION_TRT_KLEANSE
+                      | upr  : KLEANSE_SELECTION_MONITORING
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : LOYALTIES_DASHBOARD 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : LOYALTIES_DASHBOARD_D
+                      | upr  : LOYALTIES_DASHBOARD_CUSTOMER_CARD
+                      | upr  : LOYALTIES_DASHBOARD_DISCOUNT_JOB
+                      | upr  : LOYALTIES_DASHBOARD_P4_CONTACTABILITY
+                      | upr  : LOYALTIES_DASHBOARD_P6_BABYBOOK
+                      | upr  : LOYALTIES_DASHBOARD_P7_ADDON
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : MIXITE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : INIT_MIXITE
+                      | upr  : MIXITE_CONTACT
+                      | upr  : MIXITE_TCK_KPI
+                      | upr  : MIXITE_TCK_NON_CARTE
+                      | upr  : MIXITE_TCK_SLICE_LAST_PURCHASE
+                      | upr  : MIXITE_WEB_SLICE_LAST_PURCHASE
+                      | upr  : MIXITE_WEB_KPI
+                      | upr  : MIXITE_HISTORIQUE
+                      | upr  : MIXITE_TCK_AGGREGATE
+                      | upr  : MIXITE_SUIVI_OP
+                      | upr  : MIXITE_WEB_AGGREGATE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : MIXITE_SEGMENTATION 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : MIXITE_COMPORTEMENT
+                      | upr  : MIXITE_SEGMENTATION
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : NEW_REACTIVATED_CLIENTS 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : NEW_REACTIVATED_CLIENTS_D
+                      | upr  : NEW_REACTIVATED_CLIENTS_P1
+                      | upr  : NEW_REACTIVATED_CLIENTS_P2
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ORIGINE_COLLECTE 
+       | vses         : 000 
+       | label        : Origine collecte
+       | list         :
+                      | upr  : ORIGINE_COLLECTE_D
+                      | upr  : SMACK_ORIGINE_COLLECTE_MASTER
+                      | upr  : SMACK_ORIGINE_COLLECTE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PANAMERA 
+       | vses         : 000 
+       | label        : Panamera
+       | list         :
+                      | upr  : PANAMERA_D
+                      | upr  : PANAMERA_100
+                      | upr  : PANAMERA_200
+                      | upr  : PANAMERA_300
+                      | upr  : PANAMERA_400
+                      | upr  : SEND_PANAMERA_EXTRACT_CONTACT_TO_SELLIGENT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PDX_HEBDO 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : PDX_HEBDO_D
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_STORE_PROJECTED_KPI
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_SUGGESTED_PO_GLOBAL
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_FORECAST_SKU_COUNTRY_WEEK
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_REPLENISHMENT_SKU_WAREHOUSE_WEEK
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_FORECAST
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_TRANSFERS
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_DC_PROJECTED_KPI
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PDX_QUOTIDIEN 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : PDX_QUOTIDIEN_D
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_STORE_ATTRIBUTES
+                      | upr  : SLEEP_1
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_STORE_HIERARCHY
+                      | upr  : SLEEP_2
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_PRODUCT
+                      | upr  : SLEEP_10
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_PRODUCT_HIERARCHY_GLT
+                      | upr  : SLEEP_15
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_PRODUCT_HIERARCHY_PDT
+                      | upr  : SLEEP_5
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_PRODUCT_ATTRIBUTES
+                      | upr  : SLEEP_6
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_GAMMA
+                      | upr  : SLEEP_7
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_GRADE
+                      | upr  : SLEEP_8
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_SALES
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_POTENTIAL_SALES
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_ZONE_GRADE
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_DISPLAY_MERCH
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_PRICE
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_PRICE_CHANGE
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_PRICE_OVERRIDE
+                      | upr  : SLEEP_12
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_DMDC
+                      | upr  : SLEEP_13
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_PERIODS
+                      | upr  : SLEEP_20
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_SEGMENTATION
+                      | upr  : SLEEP_40
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_SIZE_GRID
+                      | upr  : SLEEP_25
+                      | upr  : SLEEP_30
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_EVENT
+                      | upr  : SLEEP_35
+                      | upr  : INTEGRATION_DATALAKE_PREDICTIX_SUGGESTED_PO
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PERSO_NAVIG_WEB 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : PERSO_NAVIG_WEB_D
+                      | upr  : SMACK_PERSO_WEB_P2_PURE_STORE
+                      | upr  : SMACK_PERSO_WEB_TAILLANT_IDENTIFIES
+                      | upr  : SMACK_PERSO_WEB_TAILLANT_ANONYMES
+                      | upr  : SMACK_PERSO_WEB_P2_PURE_STORE_M
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PHOTOSTOCKINVLOG 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : PHOTOSTOCK_INV_DTL
+                      | upr  : PHOTOSTOCK_BKP
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PMAS 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : PMAS_D
+                      | upr  : PMAS_PREPARE_100_TICKETS
+                      | upr  : PMAS_AGGREGATE_200_PMAS_US01
+                      | upr  : PMAS_AGGREGATE_200_PMAS_US02
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : REFERENTIEL_ENTREPOTS 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : COPIE_REFERENTIEL_ENTREPOTS
+                      | upr  : COPIE_REFERENTIEL_ENTREPOTS_DTL
+                      | upr  : SUPPRESSION_REFERENTIEL_ENTREPOTS_STG
+                      | upr  : ROUTINE_REFERENTIEL_WAREHOUSES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : REF_INV 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : INTEGRATION_REF_INV
+                      | upr  : FLUX_INV_MAG
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : REPRISE_SMACK_ROCK_CONSOLIDATION_ET_MENSUEL 
+       | vses         : 000 
+       | label        : Reprise des partitions smack rock consolidation et smack mensuel
+       | list         :
+                      | upr  : REPRISE_SMACK_D
+                      | upr  : REPRISE_SMACK_ROCK_CONSOLIDATION_TICKETS
+                      | upr  : REPRISE_SMACK_ROCK_CONSOLIDATION_COMMANDES
+                      | upr  : REPRISE_SMACK_ROCK_CONSOLIDATION
+                      | upr  : REPRISE_SMACK_ALL_M
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SELLIGENT_DATALAKE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_D
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_CAMPAIGNS
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_CAMPAIGN_EXECLOG
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_ACTIONQUEUE
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_FLAGS
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_SIM_MAILCLIENTS
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_MAILS
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_MAIL_PROBES
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_MAILTREE
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_SEGMENTS
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_SMS_FEEDBACK
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_SMS_TARGETING
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_POSTMAIL_TARGETING
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_MOBILE_APP_TARGETING
+                      | upr  : INTEGRATION_DATALAKE_SELLIGENT_MOBILE_APP_EVENTS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SHORTWMOS 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : SHORTWMOS_INDIC
+                      | upr  : SHORTWMOS_INDIC_BKP
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_ALL 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : SMACK_ALL_D
+                      | upr  : SMACK_ROCK_CONSOLIDATION
+                      | upr  : SMACK_ROCK_CONSOLIDATION_COMMANDES
+                      | upr  : SMACK_ROCK_CONSOLIDATION_TICKETS
+                      | upr  : SMACK_ALL
+                      | upr  : SMACK_ALL_PUBLIC
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_ALL_MENSUEL 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : SMACK_ALL_D
+                      | upr  : ENVOI_MAIL_DEBUT_SMACK_ALL
+                      | upr  : SMACK_ROCK_CARTES_M
+                      | upr  : SMACK_ROCK_TICKETS_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_TICKETS_M
+                      | upr  : PERSO_WEB_M
+                      | upr  : SMACK_ALL_M
+                      | upr  : SMACK_ALL_PUBLIC_M
+                      | upr  : ENVOI_MAIL_FIN_SMACK_ALL
+                      | upr  : SMACK_ALL_MARKETING
+                      | upr  : SMACK_ALL_PMAS
+                      | upr  : MIXITE_COMPORTEMENT
+                      | upr  : MIXITE_SEGMENTATION
+                      | upr  : SMACK_ALL_CUSTOMER_RETENTION
+                      | upr  : SMACK_ALL_LOYALTIES_DASHBOARD
+                      | upr  : LOYALTIES_REMISE_FID_ALL
+                      | upr  : LOYALTIES_DASHBOARD_DISCOUNT_JOB
+                      | upr  : SMACK_ALL_ACHATS_CROISES
+                      | upr  : SMACK_ALL_COMPORTEMENT_ACHATS
+                      | upr  : SMACK_ALL_DATACLIENTELING_MENSUEL
+                      | upr  : SMACK_ALL_HISTO_DASHBOARD_ANONYMES
+                      | upr  : DATAFORM_PERFCO
+                      | upr  : SMACK_COLLECTION
+                      | upr  : SMACK_ALL_BQ
+                      | upr  : SEGMENTATION_RFM_BQ
+                      | upr  : SMACK_ROCK_COMPTES_M
+                      | upr  : SMACK_ROCK_COMMANDES_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_COMMANDES_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_M
+                      | upr  : SMACK_ROCK_GA_SESSIONS_M
+                      | upr  : SMACK_ROCK_MIXITE_M
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_OKR_WEB 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : SMACK_OKR_WEB_D
+                      | upr  : SMACK_OKR_WEB_SESSION_MONITORING
+                      | upr  : SMACK_OKR_WEB_FIDELITY_CONVERSION
+                      | upr  : SMACK_OKR_WEB_ROPO_AND_SEARCH
+                      | upr  : SMACK_OKR_WEB_CUSTOMER_XCANAL
+                      | upr  : SMACK_OKR_WEB_FINAL
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_LOY_FOCUS_KLIENT_NEW 
+       | vses         : 000 
+       | label        : Session de lct des scripts LOYALTIES FOCUS KLIENT_NEW sur SMACKc
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : INIT_ALIM_LOYALTIES_FOCUS_KLIENT
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_PREPARE_LOYALTIES
+                      | upr  : CONTACTS_FOCUS_DATARAW
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_TCK_PREPARE_NOCARTE
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_PREPARE_SMACK_FID
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_PREPARE_CARTS
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_DERIVE_RFM_CLUSTER_STYLES
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_CMD_DERIVE_COMMANDES
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_DERIVE_LIVRET_ACHATS
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_DERIVE_LIVRET
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_TCK_DERIVE_TICKETS_NOCARTE
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_TCK_DERIVE_TICKETS
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_AGGREGATE_SMACK_FID
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_FOKUS_KLIENT
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_SPLIT_AVRO
+                      | upr  : FOCUS_KLIENT_UPDATE_TABLE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : TEST_PASSAGE_ARGUMENT 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : REPRISE_SMACK_D
+                      | upr  : TEST_PASSAGE_ARGUMENT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : TINYCLUES 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : TINYCLUES_CHECKS_BEFORE_RUN
+                      | upr  : TINYCLUES_FULL_LOAD
+                      | upr  : TINYCLUES_DATA_TRANSFERT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : VALIUZ 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : VALIUZ_100_STORES
+                      | upr  : VALIUZ_200_PRODUCTS
+                      | upr  : VALIUZ_300_PREPARE_DATALAKE
+                      | upr  : VALIUZ_300_PREPARE_RAW
+                      | upr  : VALIUZ_300_CONTACTS
+                      | upr  : VALIUZ_400_TICKETS
+                      | upr  : VALIUZ_500_WEBORDERS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : VALIUZ_SCORE_EXPORT_GCP 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : VALIUZ_SCORE_EXPORT_DATALAKE
+                      | upr  : VALIUZ_SCORE_EXPORT_DATARAW
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : WSSI 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : WSSI_D
+                      | upr  : SUPPLY_WSSI_DMDC
+                      | upr  : SUPPLY_WSSI_STORES_PRIOR
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_PRIOR
+                      | upr  : SLEEP_2
+                      | upr  : SUPPLY_WSSI_STORES_PROJECTED
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_PROJECTED
+                      | upr  : SUPPLY_WSSI_STORES_DEP
+                      | upr  : SLEEP_1
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_DEP
+                      | upr  : SUPPLY_WSSI_INVENTORY
+                      | upr  : SUPPLY_WSSI_INVENTORY_PRIOR
+                      | upr  : SLEEP_5
+                      | upr  : SUPPLY_WSSI_STORE_ALLOCATION
+                      | upr  : SLEEP_10
+                      | upr  : SUPPLY_WSSI_STYLES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : WSSI_PRIOR 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : WSSI_D
+                      | upr  : SUPPLY_WSSI_DMDC
+                      | upr  : SUPPLY_WSSI_STORES_PRIOR
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_PRIOR
+                      | upr  : SLEEP_5
+                      | upr  : SUPPLY_WSSI_STORES_PROJECTED
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_PROJECTED
+                      | upr  : SUPPLY_WSSI_STORES_DEP
+                      | upr  : SLEEP_1
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_DEP
+                      | upr  : SLEEP_10
+                      | upr  : SUPPLY_WSSI_INVENTORY
+                      | upr  : SUPPLY_WSSI_INVENTORY_PRIOR
+                      | upr  : SLEEP_2
+                      | upr  : SUPPLY_WSSI_STORE_ALLOCATION
+                      | upr  : SUPPLY_WSSI_STYLES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : WSSI_PROJECTED 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : WSSI_D
+                      | upr  : SUPPLY_WSSI_DMDC
+                      | upr  : SUPPLY_WSSI_STORES_PRIOR
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_PRIOR
+                      | upr  : SLEEP_2
+                      | upr  : SUPPLY_WSSI_STORES_PROJECTED
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_PROJECTED
+                      | upr  : SUPPLY_WSSI_STORES_DEP
+                      | upr  : SLEEP_5
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_DEP
+                      | upr  : SLEEP_1
+                      | upr  : SUPPLY_WSSI_INVENTORY
+                      | upr  : SLEEP_10
+                      | upr  : SUPPLY_WSSI_INVENTORY_PRIOR
+                      | upr  : SUPPLY_WSSI_STORE_ALLOCATION
+                      | upr  : SUPPLY_WSSI_STYLES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : WSSI_V2 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : WSSI_D
+                      | upr  : SUPPLY_WSSI_INVENTORY
+                      | upr  : SUPPLY_WSSI_STORE_ALLOCATION
+                      | upr  : SUPPLY_WSSI_STYLES
+                      | upr  : SUPPLY_WSSI_INVENTORY_PRIOR
+                      | upr  : SUPPLY_WSSI_DMDC
+                      | upr  : SUPPLY_WSSI_STORES_PRIOR
+                      | upr  : SUPPLY_WSSI_STORES_PROJECTED
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_PROJECTED
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_DEP
+                      | upr  : SUPPLY_WSSI_STORES_DEP
+                      | upr  : SUPPLY_WSSI_WAREHOUSE_PRIOR
+       |
+

@@ -1,0 +1,1443 @@
+ Command : uxshw ses exp ses=* lst vses=* node=xpbd01
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ACQUISITION 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : ACQUISITION_SOCLE
+                      | upr  : ACQUISITION_US2
+                      | upr  : EXPORT_ACQUISITION_US2
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : BASE_DATARAW_GCP 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : BASE_DATARAW_GCP_D
+                      | upr  : COMPTE_COMMANDES_TO_GCP
+                      | upr  : CARTE_TICKETS_TO_GCP
+                      | upr  : ROCK_CARTE_TO_GCP
+                      | upr  : ROCK_COMPTE_TO_GCP
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CAMPAIGN_MONITORING 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : LANCEUR_SMACK_CAMPAIGN_MONITORING
+                      | upr  : EXEC_CAMPAIGN_MONITORING_SOCLE_GOOGLE_ANALYTICS
+                      | upr  : EXEC_CAMPAIGN_MONITORING_SOCLE_ROCK_SALES
+                      | upr  : EXEC_CAMPAIGN_MONITORING_TOP_SALES_VIEWS
+                      | upr  : EXPORT_GCP_CAMPAIGN_MONITORING_TOP_SALES_VIEWS
+                      | upr  : EXEC_CAMPAIGN_MONITORING_SOCLE_SELLIGENT_TRIGGERS
+                      | upr  : EXEC_CAMPAIGN_MONITORING_TRIGGER_CAMPAIGN_MONITORING
+                      | upr  : EXPORT_GCP_TRIGGER_CAMPAIGN_MONITORING
+                      | upr  : EXEC_CAMPAIGN_MONITORING_MARKETING_CAMPAIGN_MONITORING
+                      | upr  : EXEC_CAMPAIGN_MONITORING_EXTRA
+                      | upr  : EXPORT_GCP_JOB_DATA_SOURCE_DATE
+                      | upr  : EXPORT_GCP_CAMPAIGN_MONITORING_MARKETING
+                      | upr  : EXEC_CAMPAIGN_MONITORING_WEB_TRAFFIC
+                      | upr  : EXPORT_GCP_CAMPAIGN_MONITORING_WEB_TRAFFIC
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CNIL_ANONYMISATION 
+       | vses         : 000 
+       | label        : nouvelle session cnil
+       | list         :
+                      | upr  : LANCEUR_ANONYMISATION
+                      | upr  : EXEC_CNIL_ANONYMISATION_START
+                      | upr  : EXEC_CNIL_ANONYMISATION_IDL
+                      | upr  : EXEC_CNIL_ANONYMISATION_END
+                      | upr  : EXEC_CNIL_MONITORING_ANONYMISATION
+                      | upr  : EXEC_CNIL_ANONYMISATION_ROLLBACK_IDL
+                      | upr  : EXEC_CNIL_ANONYMISATION_SMA
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : COMPORTEMENT ACHAT MENSUEL 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_COMPORTEMENT_ACHAT_M
+                      | upr  : INTEG_VW_COMPORTEMENT_ACHAT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : COMPORTEMENT_ACHAT_BIANNUEL_ETE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXEC_COMPORTEMENT_ACHAT_BIANNUEL_ETE
+                      | upr  : INTEG_VW_COMPORTEMENT_ACHAT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : COMPORTEMENT_ACHAT_BIANNUEL_HIVER 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXEC_COMPORTEMENT_ACHAT_BIANNUEL_HIVER
+                      | upr  : INTEG_VW_COMPORTEMENT_ACHAT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : CREATION_TABLES_HADOOP_COUNT 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : CREATE_TABLES_HADOOP_COUNT_DATALAKE
+                      | upr  : CREATE_TABLES_HADOOP_COUNT_DATARAW
+                      | upr  : CREATE_TABLES_HADOOP_COUNT_AGREGATS
+                      | upr  : CREATE_TABLES_HADOOP_COUNT_PDX_DATA
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : EXEC_COMPORTEMENT_ACHAT_BIANNUEL_ETE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXEC_COMPORTEMENT_ACHAT_BIANNUEL_ETE
+                      | upr  : INTEG_VW_COMPORTEMENT_ACHAT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : EXEC_COMPORTEMENT_ACHAT_BIANNUEL_HIVER 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXEC_COMPORTEMENT_ACHAT_BIANNUEL_HIVER
+                      | upr  : INTEG_VW_COMPORTEMENT_ACHAT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : EXPORT_GCP_COLLECTIONS 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXPORT_GCP_COLLECTIONS_D
+                      | upr  : EXPORT_GCP_COLLECTIONS_CUSTOMER_PROFILE_BY_PRODUCT
+                      | upr  : EXPORT_GCP_COLLECTIONS_MARKET_INDICATORS
+                      | upr  : EXPORT_GCP_COLLECTIONS_SALES_BY_CUSTOMPROFILE_AND_ZOOMPRODUCT
+                      | upr  : EXPORT_GCP_COLLECTIONS_TOP_5_ORDER_WEB_ERESA
+                      | upr  : EXPORT_GCP_COLLECTIONS_TOP_5_SALES_STORE_WEB
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : EXPORT_GCP_SALE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXPORT_GCP_SALE_D
+                      | upr  : EXPORT_GCP_SALE_JOB
+                      | upr  : EXPORT_GCP_SALE_EXPORT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : EXPORT_GCP_WEBORDER 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXPORT_GCP_WEBORDER_D
+                      | upr  : EXPORT_GCP_WEBORDER_JOB_EXHAUSTIVE
+                      | upr  : EXPORT_GCP_WEBORDER_EXPORT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : EXPORT_GCP_WEBORDER_ACCELERATED 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXPORT_GCP_WEBORDER_ACCELERATED_D
+                      | upr  : EXPORT_GCP_WEBORDER_JOB_ACCELERATED
+                      | upr  : EXPORT_GCP_WEBORDER_EXPORT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : EXPORT_GCP_WEBORDER_EXHAUSTIVE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXPORT_GCP_WEBORDER_EXHAUSTIVE_D
+                      | upr  : EXPORT_GCP_WEBORDER_JOB_EXHAUSTIVE
+                      | upr  : EXPORT_GCP_WEBORDER_EXPORT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : GOOGLE_SSD 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : GOOGLE_SSD_D
+                      | upr  : GOOGLE_SSD_ES
+                      | upr  : GOOGLE_SSD_FR
+                      | upr  : GOOGLE_SSD_IT
+                      | upr  : GOOGLE_SSD_BE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : HISTO_DASHBOARD_ANONYMES 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : HISTO_DASHBOARD_ANONYMES_D
+                      | upr  : SMACK_HISTO_RFM_MATRICE_PASSAGE
+                      | upr  : EXPORT_GCP_RFM_MATRICE_PASSAGE
+                      | upr  : HISTO_KPI_1RM
+                      | upr  : EXPORT_GCP_KPI_1RM
+                      | upr  : SMACK_HISTO_KPI_12RM
+                      | upr  : EXPORT_GCP_KPI_12RM
+                      | upr  : SMACK_HISTO_COMPLETUDE
+                      | upr  : EXPORT_GCP_COMPLETUDE
+                      | upr  : SMACK_HISTO_PROFIL_12RM
+                      | upr  : EXPORT_GCP_PROFILE_12RM
+                      | upr  : SMACK_HISTO_PROFIL_1RM
+                      | upr  : EXPORT_GCP_PROFILE_1RM
+                      | upr  : SMACK_HISTO_TRANSFER_MATRIX
+                      | upr  : EXPORT_GCP_TRANSFER_MATRIX_CCS
+                      | upr  : SMACK_HISTO_WEB_12RM
+                      | upr  : EXPORT_GCP_EXPORT_WEB_12RM
+                      | upr  : SMACK_HISTO_WEB_1RM
+                      | upr  : EXPORT_GCP_EXPORT_WEB_1RM
+                      | upr  : SMACK_TICKET_MAGASIN_1RM
+                      | upr  : EXPORT_GCP_TICKET_MAGASIN_1RM
+                      | upr  : SMACK_HISTO_RFM_CA_CLASSE
+                      | upr  : EXPORT_GCP_RFM_CA_CLASSE_M1
+                      | upr  : SMACK_HISTO_CLUSTER_CLIENT_STYLE
+                      | upr  : EXPORT_GCP_CLUSTER_CLIENTS_STYLE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_ADWORDS_01 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers Google ADWORDS
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : RECUP_ADWORDS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_ADWORDS_BASIC_STATS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_ADWORDS_CAMPAIGN
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_ADWORDS_GROUP
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_BEKOM_GCP_CATALOG 
+       | vses         : 000 
+       | label        : Session lct integration BEKOM_GCP_CATALOG
+       | list         :
+                      | upr  : LANCEUR_BEKOM_GCP_CATALOG
+                      | upr  : GET_BEKOM_GCP_CATALOG
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_BEKOM_GCP_CATALOG
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_CLI_01 
+       | vses         : 000 
+       | label        : Session de lancement des scripts SELECTION CNIL
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_CNIL_SELECTION
+                      | upr  : EXEC_CNIL_EXTR_CLEANSE
+                      | upr  : EXEC_CNIL_MONITORING_SELECTION
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_CLI_02 
+       | vses         : 000 
+       | label        : Session de lancement des scripts ANONYMISATION CNIL IDL
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_CNIL_ANONYMISATION_START
+                      | upr  : EXEC_CNIL_ANONYMISATION_IDL
+                      | upr  : EXEC_CNIL_ANONYMISATION_END
+                      | upr  : EXEC_MAKE_DATARAW_CONTACTS_FULL
+                      | upr  : EXEC_CNIL_ANONYMISATION_ROLLBACK_IDL
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_CLI_03 
+       | vses         : 000 
+       | label        : Session de lancement des scripts ANONYMISATION CNIL SMA
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_CNIL_ANONYMISATION_SMA
+                      | upr  : EXEC_CNIL_MONITORING_ANONYMISATION
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_DCT_01 
+       | vses         : 000 
+       | label        : Session d'integration flx kia-idl_refcli_dtl_dataclienteling
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_DCT_MISSION
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_DCT_PARTICIPATION
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_GCP_GOOGLE_ANALYTICS 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers GCP GOOGLE_ANALYTICS
+       | list         :
+                      | upr  : IDL_GCP_GOOGLE_ANALYTICS_D
+                      | upr  : TEMPO_10_MINUTES
+                      | upr  : RECUP_GOOGLE_ANALYTICS
+                      | upr  : CP_GA_TO_GA_ID
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_GOOGLE_ANALYTICS
+                      | upr  : SEND_GA_ID_TMP
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_GOOGLE_ANALYTICS_ID
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_GCP_GOOGLE_SEARCH 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers GCP GOOGLE_SEARCH
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : RECUP_GOOGLE_SEARCH_SOE
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_GOOGLE_SEARCH
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_INTEGRATION_HADOOP 
+       | vses         : 000 
+       | label        : Session d'aggregation IDL_INTEGRATION_HADOOP
+       | list         :
+                      | upr  : LANCEUR_INTEGRATION_HADOOP
+                      | upr  : INTEGRATION_HADOOP_ROCK_CARTE
+                      | upr  : EXEC_LANCEUR_ROCK_TICKETS
+                      | upr  : INTEGRATION_HADOOP_CARTE_TICKETS
+                      | upr  : EXEC_PURGE_DELTA_SALES
+                      | upr  : INTEGRATION_HADOOP_ROCK_COMPTE
+                      | upr  : EXEC_LANCEUR_ROCK_COMMANDES
+                      | upr  : INTEGRATION_HADOOP_COMPTE_COMMANDES
+                      | upr  : EXEC_PURGE_DELTA_WEBORDERS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_LOYALTIES_01 
+       | vses         : 000 
+       | label        : Session d'integration des données loyalties flx envoifidelite
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_LOYALTIES
+                      | upr  : EXEC_MAKE_DATARAW_LOYALTIES
+                      | upr  : EXEC_PURGE_DELTA_LOYALTIES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_ORIGINE_COLLECTE 
+       | vses         : 000 
+       | label        : Session de lancement des scripts ORIGINE COLLECTE
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_IMPORT_DATA_LPK_ORIGINE_COLLECTE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PANAMERA_01 
+       | vses         : 000 
+       | label        : Session de lancement des scripts PANAMERA CONTACTS
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_CONTACTS
+                      | upr  : EXEC_MAKE_DATARAW_CONTACTS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PANAMERA_02 
+       | vses         : 000 
+       | label        : Session de lancement des scripts PANAMERA CONTACTS weekend
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_CONTACTS
+                      | upr  : EXEC_MAKE_DATARAW_CONTACTS_FULL
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_BLOC_MERCH 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX BLOC_MERCH
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_BLOC_MERCH
+                      | upr  : EXEC_MAKE_DATARAW_PDX_BLOC_MERCH
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_COPYFILE 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX du flux COPYFILE
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : FLX_COPYFILE_PDX
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_STORE_PROJECTED_KPI
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_SUGGESTED_PO_GLOBAL
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST_SKU_COUNTRY_WEEK
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_REPLENISHMENT_SKU_WAREHOUSE_WEEK
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_FORECAST
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_TRANSFERS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_DC_PROJECTED_KPI
+                      | upr  : EXEC_LANCEUR_GENERATION_RAA
+                      | upr  : EXEC_LANCEUR_GENERATION_LSD
+                      | upr  : EXEC_MAKE_DATARAW_PDX_COPYFILE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_DOWNSTREAM_LANES 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX du flux DOWNSTREAM_LANE
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_DOWNSTREAM_LANES
+                      | upr  : EXEC_MAKE_DATARAW_DOWNSTREAM_LANES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_IMPLANTATION 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX IMPLANTATION
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_IMPLANTATION_HEADER
+                      | upr  : EXEC_MAKE_DATARAW_IMPLANTATION_HEADER
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_IMPLANTATION_DETAIL
+                      | upr  : EXEC_MAKE_DATARAW_IMPLANTATION_DETAIL
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_INFOACHAT 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX du flux INFOACHAT
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PRODUCT_DISTRIBUTIONCENTER
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_UPSTREAM_LANES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_VENDOR_FORWARDER
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_VENDOR_PRODUCT
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_VENDOR_PRODUCT_ATTRIBUTES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PRE_ORDERS
+                      | upr  : EXEC_MAKE_DATARAW_PDX_INFOACHAT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_INFOCOMMUN 
+       | vses         : 000 
+       | label        : Session integration des fichiers PDX venant du flx INFOCOMMUN
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_VENDOR
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_TIME_PLANNING
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_DC_HIERARCHY
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_DC_ATTRIBUTES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_SALES_CHANNEL
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_CURRENCY
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_VAT
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_FORWARDER
+                      | upr  : EXEC_MAKE_DATARAW_PDX_INFOCOMMUN
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_INFOSTOCK 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX du flux INFOSTOCK
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_SALES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_INVENTORY
+                      | upr  : EXEC_STAGING_DATALAKE_PARQUET_GCP_PDX_PURCHASE_ORDERS
+                      | upr  : EXEC_MAKE_DATARAW_PDX_INFOSTOCK
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_INVENTORY 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX INVENTORY
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_PARQUET_PDX_INVENTORY
+                      | upr  : EXEC_MAKE_DATARAW_INVENTORY
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_NDT_PRODUCT 
+       | vses         : 000 
+       | label        : Session integration des fichiers PDX venant du flx NDT_PRODUCT
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PRODUCT_ATTRIBUTES
+                      | upr  : EXEC_MAKE_DATARAW_PRODUCT_ATTRIBUTES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PRODUCT
+                      | upr  : EXEC_MAKE_DATARAW_PRODUCT
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PRODUCT_HIERARCHY_PDT
+                      | upr  : EXEC_MAKE_DATARAW_PRODUCT_HIERARCHY_PDT
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PRODUCT_HIERARCHY_GLT
+                      | upr  : EXEC_MAKE_DATARAW_PRODUCT_HIERARCHY_GLT
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_GAMMA
+                      | upr  : EXEC_MAKE_DATARAW_GAMMA
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_ZONE_GRADE
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_POTENTIAL_SALES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_DISPLAY_MERCH
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PRICE_OVERRIDE
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PRICE
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_DMDC
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_SEGMENTATION
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PERIODS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PRICE_CHANGE
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_SIZE_GRID
+                      | upr  : EXEC_MAKE_DATARAW_PDX_NDT_PRODUCT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_PARAM_COST_PRICE 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX PARAM_COST_PRICE
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_PARQUET_PDX_PARAM_COST_PRICE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_PURCHASEPLAN 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX PURCHASEPLAN
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_PURCHASE_PLAN
+                      | upr  : EXEC_MAKE_DATARAW_PURCHASE_PLAN
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_STORES 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX STORES
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_STORE_ATTRIBUTES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_STORE_HIERARCHY
+                      | upr  : EXEC_MAKE_DATARAW_PDX_STORES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_SUGGESTED_PO 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX SUGGESTED_PO
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PDX_SUGGESTED_PO
+                      | upr  : EXEC_MAKE_DATARAW_SUGGESTED_PO
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PDX_SUGGESTED_PO_GLOBAL 
+       | vses         : 000 
+       | label        : Session lct integration des fichiers PDX SUGGESTED_PO_GLOBAL
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_PARQUET_PDX_SUGGESTED_PO_GLOBAL
+                      | upr  : EXEC_MAKE_DATARAW_SUGGESTED_PO_GLOBAL
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PMA_01 
+       | vses         : 000 
+       | label        : Session d'integration flx kia-ref_envoi_pma
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PMA
+                      | upr  : EXEC_MAKE_DATARAW_PMA
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PO_01 
+       | vses         : 000 
+       | label        : Session de lancement des scripts purchaseorder
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : IDLPURCHASEORDER
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PURCHASEORDERS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PRODUCTHIERARCHY_01 
+       | vses         : 000 
+       | label        : Session d'integration flx ma2-refpdt_ma2_codification
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PRODUCTHIERARCHY
+                      | upr  : EXEC_MAKE_DATARAW_PRODUCTHIERARCHY
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_PROMOLIST_01 
+       | vses         : 000 
+       | label        : scripts d'integration du kia-glot_envoi_promo_liste
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_PROMOLIST
+                      | upr  : EXEC_MAKE_DATARAW_PROMOLIST
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_SALES_01 
+       | vses         : 000 
+       | label        : Session de lancement des scripts ventes autres WLD
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : IDLTICKVALO
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SALES
+                      | upr  : EXEC_MAKE_DATARAW_SALES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_SALES_02 
+       | vses         : 000 
+       | label        : Session de lancement des scripts ventes WLD
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : IDLSALESTICKETKDB
+                      | upr  : EXEC_STAGING_DATALAKE_SALES_BRESIL
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_SEL_01 
+       | vses         : 000 
+       | label        : Session de lancement des scripts SELLIGENT
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : GET_SELLIGENT_FILES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_CAMPAIGNS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_CAMPAIGN_EXECLOG
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_ACTIONQUEUE
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_FLAGS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_SIM_MAILCLIENTS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_MAILS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_MAIL_PROBES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_MAILTREE
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_SEGMENTS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_POSTMAIL_TARGETING
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_SMS_TARGETING
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_SMS_FEEDBACK
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_MOBILE_APP_EVENTS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SELLIGENT_MOBILE_APP_TARGETING
+                      | upr  : EXEC_MAKE_DATARAW_SELLIGENT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_STORES_01 
+       | vses         : 000 
+       | label        : scripts d'integration du kia-idl_refmag_mrm_magasin
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : STG_DTL_STORES
+                      | upr  : EXEC_MAKE_DATARAW_STORES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_STORES_02 
+       | vses         : 000 
+       | label        : scripts d'integration du kia-idl_ref_mrm_operationalstructure
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_OPERATIONALSTRUCTURE
+                      | upr  : EXEC_MAKE_DATARAW_OPERATIONALSTRUCTURE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_STORES_03 
+       | vses         : 000 
+       | label        : scripts d'integration du merge stores + make dataraw
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_MERGE_STORES_DATALAKE
+                      | upr  : EXEC_MAKE_DATARAW_STORESOPERATIONALSTRUCTURE
+                      | upr  : EXEC_IMPORT_K_ETAB_ATTRIBUT
+                      | upr  : MAJ_TABLE_MAGASINS
+                      | upr  : MAJ_TABLE_MAGASINS_ATTACHEMENT
+                      | upr  : EXPORT_GCP_MAGASINS
+                      | upr  : EXPORT_GCP_MAGASINS_ATTACHEMENT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_STYLES_01 
+       | vses         : 000 
+       | label        : scripts d'integration du kia-refpdt_envoi_reference
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_STYLES
+                      | upr  : EXEC_MAKE_DATARAW_STYLES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_SUPPLIERS_01 
+       | vses         : 000 
+       | label        : Session integration flx WM KiaSupplierReffrsIdlSub
+       | list         :
+                      | upr  : LANCEUR_INTEGRATION_SUPPLIERS
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_SUPPLIERS
+                      | upr  : EXEC_MAKE_DATARAW_SUPPLIERS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_TRF_01 
+       | vses         : 000 
+       | label        : Session de lancement des scripts transfert
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_PARQUET_TRANSFERTS
+                      | upr  : EXEC_TRANSFERT_PIVOT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_VALIUZ_01 
+       | vses         : 000 
+       | label        : session recuperation fichiers valiuz
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_VALIUZ_SCORE_RETRIEVER
+                      | upr  : EXEC_VALIUZ_SCORE_EXPORT_DATALAKE
+                      | upr  : EXEC_VALIUZ_SCORE_EXPORT_DATARAW
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_VOUCHERS_01 
+       | vses         : 000 
+       | label        : scripts d'integration du idl_clifid_mmk_voucher
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : STG_DTL_VOUCHERS
+                      | upr  : EXEC_MAKE_DATARAW_VOUCHERS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IDL_WEBORDERS_01 
+       | vses         : 000 
+       | label        : Session de lancement des scripts d'integration du bow commande
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_STAGING_DATALAKE_GCP_WEBORDERS
+                      | upr  : EXEC_MAKE_DATARAW_WEBORDERS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : INTEGRATION_HADOOP_CARTE_TICKETS 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : INTEGRATION_HADOOP_CARTE_TICKETS
+                      | upr  : EXEC_PURGE_DELTA_SALES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : INTEGRATION_HADOOP_COMPTE_COMMANDES 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : INTEGRATION_HADOOP_COMPTE_COMMANDES
+                      | upr  : EXEC_PURGE_DELTA_WEBORDERS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : INTEGRATION_HADOOP_ROCK_CARTE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : INTEGRATION_HADOOP_ROCK_CARTE
+                      | upr  : EXEC_LANCEUR_ROCK_TICKETS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : INTEGRATION_HADOOP_ROCK_COMPTE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : INTEGRATION_HADOOP_ROCK_COMPTE
+                      | upr  : EXEC_LANCEUR_ROCK_COMMANDES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ITFASUE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : ITFASUE_D
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : ITF_DRT_01 
+       | vses         : 000 
+       | label        : Session de lancement des scripts ITFASUE
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : ITF_DRT
+                      | upr  : ITF_DRT_AGG1
+                      | upr  : ITF_DRT_AGG2
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : IU_UMNT 
+       | vses         : 000 
+       | label        : DUAS v6 Unix Maintenance
+       | list         :
+                      | upr  : IU_UMNT_H
+                      | upr  : IU_UMNTOAX
+                      | upr  : IU_UMNTOLB
+                      | upr  : IU_UMNTPOA
+                      | upr  : IU_UMNT_T
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PREP_KLEANSE_SELECTION 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : SEND_KLEANSE_STAGING_2_GCP
+                      | upr  : UXORD_KLEANSE_SELECTION
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PUBSUB_FICHIERS_VENTES_ITTIS 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : PUBSUB_VTE_D
+                      | upr  : PUBSUB_VTE_REFCO_JOUR_CMP
+                      | upr  : PUBSUB_VTE_TK_JOUR_CMP
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : PUBSUB_FICHIERS_VENTES_ITTIS_15H 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : PUBSUB_VTE_15H_D
+                      | upr  : PUBSUB_VTE_REFCO_JOUR_CMP_15H
+                      | upr  : PUBSUB_VTE_TK_JOUR_CMP_15H
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SESSION_TEST 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : UPROC_TEST
+                      | upr  : UPROC_TEST_2
+                      | upr  : UPROC_TEST_4
+                      | upr  : UPROC_TEST_3
+                      | upr  : UPROC_TEST_5
+                      | upr  : UPROC_TEST_7
+                      | upr  : UPROC_TEST_8
+                      | upr  : UPROC_TEST_6
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_ALL_MENSUEL 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : EXEC_SMACK_ALL_M_D
+                      | upr  : EXEC_MAKE_DATARAW_LOYALTIES_M
+                      | upr  : INTEGRATION_HADOOP_ROCK_CARTE_M
+                      | upr  : EXEC_SMACK_ROCK_TICKETS_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_TICKETS_M
+                      | upr  : EXEC_MAKE_DATARAW_CONTACTS_M
+                      | upr  : INTEGRATION_HADOOP_ROCK_COMPTE_M
+                      | upr  : EXEC_SMACK_ROCK_COMMANDES_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_COMMANDES_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_M
+                      | upr  : EXEC_SMACK_ALL_M
+                      | upr  : EXEC_SMACK_ALL_PUBLIC
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_ALL_MENSUEL_IDL 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : SMACK_ALL_MENSUEL_IDL_D
+                      | upr  : EXEC_MAKE_DATARAW_LOYALTIES_M
+                      | upr  : INTEGRATION_HADOOP_ROCK_CARTE_M
+                      | upr  : EXEC_MAKE_DATARAW_CONTACTS_M
+                      | upr  : INTEGRATION_HADOOP_ROCK_COMPTE_M
+                      | upr  : SMACK_ALL_MENSUEL_IDL_F
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_ALL_MENSUEL_SMA 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : SMACK_ALL_MENSUEL_SMA_D
+                      | upr  : EXEC_SMACK_ROCK_TICKETS_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_TICKETS_M
+                      | upr  : EXEC_SMACK_ROCK_COMMANDES_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_COMMANDES_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_M
+                      | upr  : EXEC_SMACK_ALL_M
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_CIBLAGE_CLIENT 
+       | vses         : 000 
+       | label        : Session ciblage client
+       | list         :
+                      | upr  : LANCEUR_CIBLAGE_CLIENT
+                      | upr  : EXEC_SMACK_CIBLAGE_CLIENT_INTEGRATION
+                      | upr  : EXEC_SMACK_CIBLAGE_CLIENT_JOB
+                      | upr  : EXEC_SMACK_CIBLAGE_CLIENT_MONGO_EXPORT
+                      | upr  : EXEC_SMACK_CIBLAGE_CLIENT_VECTOR_EXPORT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_KICAP 
+       | vses         : 000 
+       | label        : Session Smack Kicap
+       | list         :
+                      | upr  : LANCEUR_KICAP
+                      | upr  : EXEC_SMACK_KICAP_INTEGRATION
+                      | upr  : EXEC_SMACK_KICAP_JOB
+                      | upr  : EXEC_SMACK_KICAP_MONGO_EXPORT
+                      | upr  : EXPORT_GCP_KICAP
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_MIXITE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : INTEGRATION_HADOOP_GOOGLE_ANALYTICS
+                      | upr  : INTEGRATION_HADOOP_ROCK_GOOGLE_ANALYTICS_SESSIONS
+                      | upr  : SMACK_ROCK_MIXITE
+                      | upr  : EXEC_PURGE_DELTA_GOOGLE_ANALYTICS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_NEW_REACTIVATED_CLIENTS 
+       | vses         : 000 
+       | label        :  Neo digitaux
+       | list         :
+                      | upr  : SMACK_NEW_REACTIVATED_CUSTOMERS_P1_CHANNEL_DATA
+                      | upr  : SMACK_NEW_REACTIVATED_CLIENTS_P2_NEW_WEB_ACCOUNT
+                      | upr  : SMACK_NEW_REACTIVATED_CUSTOMERS_P1_CHANNEL_DATA_CATCH_UP
+                      | upr  : EXPORT_GCP_NEW_REACTIVATED_CUSTOMERS_P1_CHANNEL_DATA
+                      | upr  : EXPORT_GCP_NEW_REACTIVATED_CUSTOMERS_P2_NEW_WEB_ACCOUNT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_OKR_WEB 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : LANCEUR_OKR_WEB
+                      | upr  : EXEC_OKR_WEB_SESSION_MONITORING
+                      | upr  : EXEC_OKR_WEB_FIDELITY_CONVERSION
+                      | upr  : EXEC_OKR_WEB_ROPO_AND_SEARCH
+                      | upr  : EXEC_OKR_WEB_CUSTOMER_XCANAL
+                      | upr  : EXEC_OKR_WEB_FINAL
+                      | upr  : EXPORT_GCP_OKRWEB_FINAL_12RM
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMACK_ORIGINE_COLLECTE 
+       | vses         : 000 
+       | label        : Session de lancement pour Origine Collecte
+       | list         :
+                      | upr  : EXEC_ORIGINE_COLLECTE_MASTER
+                      | upr  : EXEC_ORIGINE_COLLECTE_EXTRACT
+                      | upr  : EXEC_ORIGINE_COLLECTE_DASHBOARD_RECRUTEMENT_LEADS
+                      | upr  : EXEC_ORIGINE_COLLECTE_DASHBOARD_RECRUTEMENT_LEADS_EXPORT_VW
+                      | upr  : EXPORT_GCP_DASHBOARD_RECRUTEMENT_LEADS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_ACHATS_CROISES 
+       | vses         : 000 
+       | label        : Session de lancement des scripts Achats Croises
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_ACHATS_CROISES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_CMP_SMACKALL 
+       | vses         : 000 
+       | label        : Session de lancement des scripts du completude smack all
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : ENVOI_MAIL_DEBUT_SMACK_ALL
+                      | upr  : EXEC_MAKE_DATARAW_LOYALTIES_M
+                      | upr  : INTEGRATION_HADOOP_ROCK_CARTE_M
+                      | upr  : EXEC_SMACK_ROCK_TICKETS_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_TICKETS_M
+                      | upr  : ROCK_TICKETS_M_TO_GCP
+                      | upr  : EXEC_PERSO_WEB
+                      | upr  : EXEC_SMACK_ALL_M
+                      | upr  : ENVOI_MAIL_FIN_SMACK_ALL
+                      | upr  : EXEC_SMACK_ALL_MARKETING
+                      | upr  : EXEC_LOYALTIES
+                      | upr  : EXPORT_GCP_LOYALTIES_CONNAISSANCE_CLIENTS
+                      | upr  : EXPORT_GCP_LOYALTIES_DASHBOARD_CUSTOMER_ACTIVITY
+                      | upr  : EXPORT_GCP_LOYALTIES_DASHBOARD_KIPERF
+                      | upr  : EXPORT_GCP_LOYALTIES_DIRECTION_PAYS
+                      | upr  : EXPORT_GCP_LOYALTIES_FIDELITE_PAYS
+                      | upr  : EXEC_COLLECTION
+                      | upr  : EXEC_PMAS
+                      | upr  : EXPORT_GCP_PMAS_US01
+                      | upr  : EXPORT_GCP_PMAS_US02
+                      | upr  : EXEC_MIXITE
+                      | upr  : EXPORT_GCP_LOYALTIES_MIXITE_PAYS
+                      | upr  : CUSTOMER_RETENTION_SOCLE
+                      | upr  : CUSTOMER_RETENTION_FR_SCORE_STORE_US01
+                      | upr  : CUSTOMER_RETENTION_FR_SCORE_WEB_US02
+                      | upr  : CUSTOMER_RETENTION_FR_SCORE_WEB_US03
+                      | upr  : CUSTOMER_RETENTION_IT_SCORE_US01
+                      | upr  : CUSTOMER_RETENTION_ES_SCORE_US01
+                      | upr  : CUSTOMER_RETENTION_RU_SCORE_US01
+                      | upr  : EXEC_VALIUZ_SEND_SCORE_SEGMENT
+                      | upr  : EXEC_REFACTO_SCORE_RETENTION
+                      | upr  : EXEC_CUSTOMER_LIFECYCLE
+                      | upr  : EXEC_LOYALTIES_DASHBOARD_LBB
+                      | upr  : EXEC_LOYALTIES_DASHBOARD_P7_ADDON
+                      | upr  : SMACK_LOYALTIES_DASHBOARD_P4_CONTACTABILITY
+                      | upr  : EXPORT_GCP_LOYALTIES_DASHBOARD_BABYBOOKS
+                      | upr  : EXEC_LOYALTIES_DASHBOARD_CUSTOMER_CARD
+                      | upr  : EXPORT_GCP_LOYALTIES_DASHBOARD_CUSTOMER_CARD
+                      | upr  : REMISE_FID_ALL
+                      | upr  : EXEC_LOYALTIES_DASHBOARD_DISCOUNT
+                      | upr  : EXEC_SMACK_ALL_PUBLIC
+                      | upr  : EXPORT_SMACK_ALL_DATAVIZ
+                      | upr  : EXEC_MAKE_DATARAW_CONTACTS_M
+                      | upr  : INTEGRATION_HADOOP_ROCK_COMPTE_M
+                      | upr  : EXEC_SMACK_ROCK_COMMANDES_M
+                      | upr  : SMACK_ROCK_CONSOLIDATION_COMMANDES_M
+                      | upr  : ROCK_COMMANDES_M_TO_GCP
+                      | upr  : SMACK_ROCK_CONSOLIDATION_M
+                      | upr  : SMACK_ROCK_MIXITE_M
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_CMP_SMACKALL_OLD 
+       | vses         : 000 
+       | label        : Session de lancement des scripts du completude smack all
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_PERSO_WEB
+                      | upr  : ENVOI_MAIL_DEBUT_SMACK_ALL
+                      | upr  : EXEC_SMACK_ALL
+                      | upr  : ENVOI_MAIL_FIN_SMACK_ALL
+                      | upr  : EXEC_SMACK_ALL_MARKETING
+                      | upr  : EXEC_HISTORISATION
+                      | upr  : EXEC_LOYALTIES
+                      | upr  : EXEC_COLLECTION
+                      | upr  : EXEC_PMAS
+                      | upr  : EXEC_MIXITE
+                      | upr  : CUSTOMER_RETENTION_SOCLE
+                      | upr  : CUSTOMER_RETENTION_FR_SCORE_STORE_US01
+                      | upr  : CUSTOMER_RETENTION_FR_SCORE_WEB_US02
+                      | upr  : CUSTOMER_RETENTION_FR_SCORE_WEB_US03
+                      | upr  : CUSTOMER_RETENTION_RU_SCORE_US01
+                      | upr  : CUSTOMER_RETENTION_IT_SCORE_US01
+                      | upr  : CUSTOMER_RETENTION_ES_SCORE_US01
+                      | upr  : EXEC_VALIUZ_SEND_SCORE_SEGMENT
+                      | upr  : EXEC_REFACTO_SCORE_RETENTION
+                      | upr  : EXEC_CUSTOMER_LIFECYCLE
+                      | upr  : EXEC_LOYALTIES_DASHBOARD_LBB
+                      | upr  : EXEC_LOYALTIES_DASHBOARD_P7_ADDON
+                      | upr  : SMACK_LOYALTIES_DASHBOARD_P4_CONTACTABILITY
+                      | upr  : EXEC_LOYALTIES_DASHBOARD_CUSTOMER_CARD
+                      | upr  : EXEC_LOYALTIES_DASHBOARD_DISCOUNT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_COMMUN_AGGREGAT 
+       | vses         : 000 
+       | label        : Session de lancement des scripts communs aggregat smack
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : COMMUN_AGGREGAT_ROCK_PREPARE_CARTE
+                      | upr  : COMMUN_AGGREGAT_TCK_PREPARE
+                      | upr  : COMMUN_AGGREGAT_ROCK_PREPARE_COMPTE_ROCK
+                      | upr  : COMMUN_AGGREGAT_CMD_PREPARE
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_FID_ANALYSE_FID 
+       | vses         : 000 
+       | label        : Session de lancement des scripts Analyse Fid sur SMACK
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : ALIM_GESTION_TRANSFERT
+                      | upr  : ALIM_REMISE_FID
+                      | upr  : ALIM_TMP_ACHAT
+                      | upr  : FID_EXEC_REMISE_FID_GENERAL
+                      | upr  : FID_EXEC_REMISE_FID_GENERAL_MAG
+                      | upr  : FID_EXEC_REMISE_FID_GENERAL_MAG_PERIOD
+                      | upr  : FID_EXEC_REMISE_FID_MATRICE_PASSAGE
+                      | upr  : FID_EXEC_REMISE_FID_PANIER_UTILISATION
+                      | upr  : FID_EXEC_REMISE_FID_POIDS_CA_GROUPE
+                      | upr  : FID_EXEC_REMISE_FID_POINT_BONUS
+                      | upr  : FID_EXEC_REMISE_FID_PROFIL
+                      | upr  : FID_EXEC_LMBB_CA_RAYON
+                      | upr  : FID_EXEC_LMBB_EDITION_BON
+                      | upr  : FID_EXEC_LMBB_GENERAL
+                      | upr  : FID_EXEC_LMBB_MATRICE_PASSAGE
+                      | upr  : FID_EXEC_LMBB_RECRUTEMENT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_LOY_FOCUS_KLIENT 
+       | vses         : 000 
+       | label        : Session de lct des scripts LOYALTIES FOCUS KLIENTsur SMACK
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_ROCK_PREPARE_CARTE
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_ROCK_PREPARE_COMPTE_ROCK
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_CMD_PREPARE
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_PREPARE_LOYALTIES
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_TCK_PREPARE_NOCARTE
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_TCK_PREPARE
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_PREPARE_SMACK_FID
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_DERIVE_LIVRET_ACHATS
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_DERIVE_LIVRET
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_DERIVE_SMACK_FID
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_TCK_DERIVE_TICKETS_NOCARTE
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_TCK_DERIVE_TICKETS
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_AGGREGATE_SMACK_FID
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_FOKUS_KLIENT
+                      | upr  : INTEG_VW_LOYALTIES_FOCUS_KLIENT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_LOY_FOCUS_KLIENT_NEW 
+       | vses         : 000 
+       | label        : Session de lct des scripts LOYALTIES FOCUS KLIENT_NEW sur SMACKc
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_PREPARE_LOYALTIES
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_TCK_PREPARE_NOCARTE
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_PREPARE_SMACK_FID
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_PREPARE_CARTS
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_DERIVE_RFM_CLUSTER_STYLES
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_CMD_DERIVE_COMMANDES
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_DERIVE_LIVRET_ACHATS
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_DERIVE_LIVRET
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_TCK_DERIVE_TICKETS_NOCARTE
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_TCK_DERIVE_TICKETS
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_SMACK_AGGREGATE_SMACK_FID
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_FID_FOKUS_KLIENT
+                      | upr  : ALIM_LOYALTIES_FOCUS_KLIENT_SPLIT_AVRO
+                      | upr  : EXPORT_GCP_MAGASINS
+                      | upr  : EXPORT_GCP_MAGASINS_ATTACHEMENT
+                      | upr  : EXPORT_GCP_SANKEY_MODEL
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_LSD_02 
+       | vses         : 000 
+       | label        : Lct scripts WSSI LSD issus conditionnement 1
+       | list         :
+                      | upr  : SMA_LSD_02_D
+                      | upr  : EXEC_LSD_PREPARE_DMDC
+                      | upr  : EXEC_LSD_PREPARE_INVENTORY
+                      | upr  : EXEC_LSD_PREPARE_INVENTORY_REVOLU
+                      | upr  : EXEC_LSD_PREPARE_STORES_ALLOCATION
+                      | upr  : EXEC_IMPORT_DATA_CSV_REF_PLAN_REF_COLO
+                      | upr  : EXEC_LSD_PREPARE_STYLES
+                      | upr  : EXEC_LSD_AGGREGATE_STORES_B
+                      | upr  : EXEC_LSD_AGGREGATE_WAREHOUSE_A
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_LSD_03 
+       | vses         : 000 
+       | label        : Lct scripts de WSSI LSD conditionnement 2
+       | list         :
+                      | upr  : SMA_LSD_03_D
+                      | upr  : EXEC_LSD_AGGREGATE_STORES_A
+                      | upr  : EXEC_LSD_AGGREGATE_WAREHOUSE
+                      | upr  : EXEC_LSD_AGGREGATE_STORES_DEP
+                      | upr  : EXEC_LSD_AGGREGATE_WAREHOUSE_DEP
+                      | upr  : EXEC_LSD_VALIDATION
+                      | upr  : PIL_FW_SMA_WSSI_SEM
+                      | upr  : ENVOI_MAIL_FIN_WSSI
+                      | upr  : WSSI_GCP
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_MIXITE_SUIVI_OPERATION 
+       | vses         : 000 
+       | label        : Session de lct des scripts Mixité suivi Opération sur SMACK
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : ALIM_MIXITE_TCK_NON_CARTE
+                      | upr  : ALIM_MIXITE_CONTACTS
+                      | upr  : ALIM_MIXITE_TCK_KPI
+                      | upr  : ALIM_MIXITE_TCK_SLICE_LAST_PURCHASE
+                      | upr  : ALIM_MIXITE_WEB_KPI
+                      | upr  : ALIM_MIXITE_WEB_SLICE_LAST_PURCHASE
+                      | upr  : ALIM_MIXITE_HISTORIQUE
+                      | upr  : ALIM_MIXITE_TCK_AGGREGATE
+                      | upr  : ALIM_MIXITE_WEB_AGGREGATE
+                      | upr  : EXPORT_GCP_MIXITE_SUIVI_OPERATION_WEB
+                      | upr  : EXPORT_GCP_MIXITE_SUIVI_OPERATION_STORES
+                      | upr  : EXPORT_GCP_MIXITE_SEGMENTATION
+                      | upr  : EXPORT_GCP_MIXITE_COMPORTEMENT
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_PANAMERA 
+       | vses         : 000 
+       | label        : Session de lancement des scripts de panamera
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_PANAMERA_PREPARE_CARTS
+                      | upr  : EXEC_PANAMERA_SELECT_CONTACTS
+                      | upr  : EXEC_PANAMERA_EXTRACT_CONTACTS
+                      | upr  : EXEC_PANAMERA_EXTRACT_JSON
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_PMAS 
+       | vses         : 000 
+       | label        : Session de lancement des scripts PMAS sur SMACK
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : ALIM_PMAS_PREPARE_TICKETS_PMAS
+                      | upr  : ALIM_PMAS_AGGREGATE_PMAS_US01
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_PRODUITS_CLIENTS 
+       | vses         : 000 
+       | label        : Session de lancement des scripts Produits Clients sur SMACK
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : ALIM_ROCK_PREPARE_CARTE
+                      | upr  : ALIM_ROCK_PREPARE_COMPTE_ROCK
+                      | upr  : ALIM_PRODUITS_CLIENTS_PREPARE_COMMANDES
+                      | upr  : ALIM_PRODUITS_CLIENTS_PREPARE_TICKETS
+                      | upr  : ALIM_PRODUITS_NOCLIENTS_PREPARE_TICKETS
+                      | upr  : ALIM_PRODUITS_CLIENTS_CONSOLIDATION
+                      | upr  : INTEG_VW_PRODUITS_CLIENTS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_RAA 
+       | vses         : 000 
+       | label        : Refacto GCP de la chaine de génération du fichier RAA
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : RAA_JOB
+                      | upr  : ENVOI_MAIL_RAA_FULL_OK
+                      | upr  : ENVOI_MAIL_RAA_KO
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_RAA_01 
+       | vses         : 000 
+       | label        : Session de lancement des scripts de generation du fichier RAA
+       | list         :
+                      | upr  : SMA_RAA_01_D
+                      | upr  : EXEC_RAA_AGGREGATE_PRE_ORDERS
+                      | upr  : EXEC_RAA_AGGREGATE_PURCHASE_ORDERS
+                      | upr  : EXEC_RAA_AGGREGATE_PURCHASE_PLAN
+                      | upr  : EXEC_RAA_AGGREGATE_STORES
+                      | upr  : EXEC_RAA_AGGREGATE_SUGGESTED_PO_GLOBAL
+                      | upr  : EXEC_RAA_AGGREGATE_RAA
+                      | upr  : ENVOI_MAIL_RAA_SEMI_OK
+                      | upr  : ENVOI_MAIL_RAA_FULL_OK
+                      | upr  : EXEC_RAA_AGGREGATE_LEGACY
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_ROCK_CONSO_COMMANDES 
+       | vses         : 000 
+       | label        : session smack : SMA_ROCK_CONSO_COMMANDES
+       | list         :
+                      | upr  : LANCEUR_SMACK_ROCK_CONSO_COMMANDES
+                      | upr  : EXEC_SMACK_ROCK_COMMANDES
+                      | upr  : SMACK_ROCK_CONSOLIDATION_COMMANDES
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_ROCK_CONSO_TICKETS 
+       | vses         : 000 
+       | label        : session smack SMA_ROCK_CONSO_TICKETS
+       | list         :
+                      | upr  : LANCEUR_SMACK_ROCK_CONSO_TICKETS
+                      | upr  : SMACK_ROCK_CONSOLIDATION
+                      | upr  : EXEC_SMACK_ROCK_TICKETS
+                      | upr  : SMACK_ROCK_CONSOLIDATION_TICKETS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_VALIUZ_01 
+       | vses         : 000 
+       | label        : Session de lancement des scripts de la session VALIUZ
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_LANCEUR_VALIUZ
+                      | upr  : EXEC_VALIUZ_PREPARE_DATALAKE
+                      | upr  : EXEC_VALIUZ_PREPARE_DATARAW
+                      | upr  : EXEC_VALIUZ_CONTACTS
+                      | upr  : EXEC_VALIUZ_STORES
+                      | upr  : EXEC_VALIUZ_PRODUCT
+                      | upr  : EXEC_VALIUZ_TICKETS
+                      | upr  : EXEC_VALIUZ_WEBORDERS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_VALIUZ_02 
+       | vses         : 000 
+       | label        : Session de lancement des scripts de la session VALIUZ en full
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXEC_VALIUZ_PREPARE_DATARAW_FULL
+                      | upr  : EXEC_VALIUZ_PREPARE_DATALAKE_FULL
+                      | upr  : EXEC_VALIUZ_CONTACTS_FULL
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : SMA_VALIUZ_EXTRACT_M 
+       | vses         : 000 
+       | label        : Session de lct des scripts extract_valiuz_init...
+       | list         :
+                      | upr  : LIDLSES
+                      | upr  : EXTRACT_VALIUZ_INIT_PREPARE_DATARAW
+                      | upr  : EXTRACT_VALIUZ_INIT_CONTACTS
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : TEST_HERITAGE 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : TST_HERITAGE_1
+                      | upr  : TST_HERITAGE_2
+                      | upr  : TST_HERITAGE_3
+                      | upr  : TST_HERITAGE_4
+       |
+
+ TYPE  | ses 
+
+ ITEMS | ses          : TINYCLUES_EXPORT_IMPL 
+       | vses         : 000 
+       | label        : 
+       | list         :
+                      | upr  : TINYCLUES_EXPORT_IMPL_D
+                      | upr  : TINYCLUES_USERS
+                      | upr  : TINYCLUES_PRODUCTS
+                      | upr  : TINYCLUES_SELLIGENT
+                      | upr  : TINYCLUES_PREPARE_CARTE_TICKETS
+                      | upr  : TINYCLUES_PREPARE_STORES
+                      | upr  : TINYCLUES_PREPARE_ORDER_STATUS
+                      | upr  : TINYCLUES_PREPARE_LOYALTIES
+                      | upr  : TINYCLUES_PREPARE_SALES_TABLE
+                      | upr  : TINYCLUES_PREPARE_SALES_FILE
+                      | upr  : TINYCLUES_PREPARE_GA_FILES
+       |
+
